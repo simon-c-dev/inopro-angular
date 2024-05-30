@@ -18,6 +18,7 @@ export class PartnerComponent implements OnInit {
 		loop: true,
 		dots: false,
 		autoplay: true,
+        autoplaySpeed: 500,
 		smartSpeed: 1000,
 		autoplayHoverPause: true,
 		navText: [
