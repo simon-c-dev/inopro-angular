@@ -10,8 +10,8 @@
         border-radius: 50px;
         display: inline-block;
         padding: 10px 20px 10px 40px;
-        color: var(--paragraph-color);
-        background-color: var(--white-color);
+        color: var(--white-color);
+        background-color: var(--main-color);
         box-shadow: rgba(149, 157, 165, 0.15) 0px 8px 24px;
         font: {
             size: 15px;
@@ -55,7 +55,7 @@
     }
     .overview-content {
         margin-top: 0;
-    
+
         .sub-title {
             padding: 7px 15px 7px 35px;
             margin-bottom: 17px;
@@ -98,7 +98,7 @@
             font-size: 14px;
             margin-bottom: 18px;
             padding: 10px 15px 10px 35px;
-            
+
             i {
                 margin-top: 0;
                 left: 15px;
@@ -123,7 +123,7 @@
     }
     .overview-content {
         margin-top: -135px;
-    
+
         .sub-title {
             margin-bottom: 20px;
         }

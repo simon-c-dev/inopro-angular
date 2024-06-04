@@ -38,6 +38,7 @@ import { ServiceDetailsPageTwoComponent } from './components/pages/service-detai
 import { ComingSoonPageComponent } from './components/pages/coming-soon-page/coming-soon-page.component';
 import { AboutPageOneComponent } from './components/pages/about-page-one/about-page-one.component';
 import {ContactPageComponent} from "./components/pages/contact-page/contact-page.component";
+import {NgOptimizedImage} from "@angular/common";
 
 @NgModule({
     declarations: [
@@ -81,7 +82,8 @@ import {ContactPageComponent} from "./components/pages/contact-page/contact-page
         NgxPaginationModule,
         HttpClientModule,
         ReactiveFormsModule,
-        BsDropdownModule.forRoot()
+        BsDropdownModule.forRoot(),
+        NgOptimizedImage
     ],
     providers: [],
     bootstrap: [AppComponent]

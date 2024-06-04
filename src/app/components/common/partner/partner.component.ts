@@ -18,9 +18,12 @@ export class PartnerComponent implements OnInit {
 		loop: true,
 		dots: false,
 		autoplay: true,
-        autoplaySpeed: 500,
+        slideTransition: 'linear',
+        autoplaySpeed: 1000,
 		smartSpeed: 1000,
+        center: true,
 		autoplayHoverPause: true,
+        navSpeed: 1000,
 		navText: [
             '<i class="flaticon-011-chevron-1"></i>',
             '<i class="flaticon-010-chevron"></i>'

@@ -3,14 +3,14 @@
     --font-family: 'Poppins', sans-serif;
     --font-family2: 'Heebo', sans-serif;
     --font-family3: 'Nunito Sans', sans-serif;
-    --main-color: #06a3da;
-    --main-color2: #1DBFCC;
+    --main-color: #005cb9;
+    --main-color2: #005cb9;
     --optional-color: #124390;
     --white-color: #ffffff;
     --black-color: #222222;
-    --black-color2: #002345;
-    --paragraph-color: #6a6c72;
-    --paragraph-color2: #486683;
+    --black-color2: #808080FF;
+    --paragraph-color: #808080FF;
+    --paragraph-color2: white;
     --font-size: 16px;
     --transition: .5s;
     --covid-gradient-color: linear-gradient(90deg, rgba(12, 184, 182, 0.71) 0%, #0CB8B6 100%);
@@ -130,12 +130,12 @@ img {
 
 // Default Btn
 .default-btn {
+    border-radius: 5px;
     background-color: var(--main-color);
     transition: var(--transition);
     color: var(--white-color);
     display: inline-block;
     padding: 14px 40px;
-    border-radius: 0;
     box-shadow: none;
     border: none;
     font: {
@@ -145,6 +145,36 @@ img {
     &:hover {
         background-color: var(--optional-color);
         color: var(--white-color);
+    }
+    &.two {
+        background-color: var(--main-color2);
+        color: var(--white-color);
+
+        &:hover {
+            background-color: var(--optional-color);
+            color: var(--white-color);
+        }
+    }
+}
+
+// Default Btn
+.subscribe-btn {
+    border-radius: 5px;
+    background-color: var(--white-color);
+    transition: var(--transition);
+    color: var(--main-color );
+
+    display: inline-block;
+    padding: 14px 40px;
+    box-shadow: none;
+    border: none;
+    font: {
+        size: var(--font-size);
+        weight: 500;
+    };
+    &:hover {
+        background-color: var(--main-color);
+        color: var(--white-color );
     }
     &.two {
         background-color: var(--main-color2);
@@ -169,8 +199,8 @@ img {
         border-radius: 50px;
         display: inline-block;
         padding: 10px 20px 10px 40px;
-        color: var(--paragraph-color);
-        background-color: var(--white-color);
+        color: var(--white-color);
+        background-color: var(--main-color);
         box-shadow: rgba(149, 157, 165, 0.15) 0px 8px 24px;
         font: {
             size: 15px;
@@ -221,7 +251,7 @@ img {
         display: inline-block;
         padding: 10px 20px 10px 40px;
         color: var(--paragraph-color);
-        background-color: var(--white-color);
+        background-color: var(--main-color);
         box-shadow: rgba(149, 157, 165, 0.15) 0px 8px 24px;
         font: {
             size: 15px;
@@ -260,7 +290,7 @@ img {
             border-radius: 0;
             box-shadow: unset;
             margin-bottom: 10px;
-            color: var(--covid-main-color);
+            color: var(--main-color);
             background-color: transparent;
         }
     }
@@ -271,7 +301,7 @@ img {
             box-shadow: unset;
             margin-bottom: 10px;
             background-color: transparent;
-            color: var(--hospital-main-color);
+            color: var(--main-color);
             font: {
                 family: var(--hospital-font-family);
                 size: 18px;
@@ -467,7 +497,7 @@ img {
                 font-size: 22px;
                 margin: 0 10px;
                 padding: 0;
-                
+
                 &:hover {
                     color: var(--main-color2);
                 }
@@ -917,10 +947,10 @@ img {
 
                 .panel-heading {
                     border-radius: 8px 8px 0 0;
-                    
+
                     .btn {
                         border-radius: 8px 8px 0 0;
-                        
+
                         &::before {
                             content: "\f10b";
                         }
@@ -990,10 +1020,10 @@ img {
 
                 .panel-heading {
                     border-radius: 8px 8px 0 0;
-                    
+
                     .btn {
                         border-radius: 8px 8px 0 0;
-                        
+
                         &::before {
                             content: "\f10b";
                         }
@@ -1032,7 +1062,7 @@ img {
                     }
                     a {
                         color: var(--black-color2);
-        
+
                         &:hover {
                             color: var(--main-color2);
                         }
@@ -1070,7 +1100,7 @@ img {
                     }
                     a {
                         color: var(--paragraph-color);
-        
+
                         &:hover {
                             color: var(--main-color2);
                         }
@@ -1088,14 +1118,14 @@ img {
         };
         .page-banner-content {
             text-align: start;
-        
+
             h2 {
                 color: var(--black-color);
             }
             .pages-list {
                 li {
                     color: var(--paragraph-color);
-                    
+
                     &::before {
                         color: var(--paragraph-color);
                     }
@@ -1104,7 +1134,7 @@ img {
                     }
                     a {
                         color: var(--black-color);
-        
+
                         &:hover {
                             color: var(--main-color);
                         }
@@ -1407,7 +1437,7 @@ img {
                         width: 15px;
                         height: 15px;
                         margin: 0 3px;
-    
+
                         &::before {
                             margin: 2px;
                         }
@@ -1427,7 +1457,7 @@ img {
                         width: 15px;
                         height: 15px;
                         margin: 0 3px;
-    
+
                         &::before {
                             margin: 2px;
                         }
@@ -1460,7 +1490,7 @@ img {
                 opacity: 1;
                 margin-bottom: 25px;
                 visibility: visible;
-    
+
                 [class*=owl-] {
                     top: 0;
                     left: 0;
@@ -1494,7 +1524,7 @@ img {
                 opacity: 1;
                 margin-bottom: 25px;
                 visibility: visible;
-    
+
                 [class*=owl-] {
                     top: 0;
                     left: 0;
@@ -1520,7 +1550,7 @@ img {
                 opacity: 1;
                 margin-bottom: 25px;
                 visibility: visible;
-    
+
                 [class*=owl-] {
                     top: 0;
                     left: 0;
@@ -1546,7 +1576,7 @@ img {
         .popup-inner {
             width: 300px;
             padding: 10px;
-            
+
             iframe {
                 width: 100%;
                 height: 177px;
@@ -1650,7 +1680,7 @@ img {
     }
     .covid-page-banner-content {
         top: 0;
-    
+
         h3 {
             font-size: 24px;
             margin-bottom: 8px;
@@ -1666,11 +1696,11 @@ img {
     .covid-page-banner-image {
         margin-top: 25px;
     }
-    
+
     // Pagination
     .pagination-area {
         margin-top: 10px;
-    
+
         .page-numbers {
             width: 35px;
             height: 35px;
@@ -1692,7 +1722,7 @@ img {
     .video-popup {
         .popup-inner {
             width: 400px;
-            
+
             iframe {
                 width: 100%;
                 height: 238px;
@@ -1744,17 +1774,17 @@ img {
         padding: 13px 35px;
         font-size: 15px;
     }
-    
+
     // Section Title
     .section-title-warp {
         padding-right: 155px;
         margin-bottom: 35px;
-    
+
         .sub-title {
             font-size: 14px;
             margin-bottom: 20px;
             padding: 10px 15px 10px 35px;
-            
+
             i {
                 margin-top: 0;
                 left: 15px;
@@ -1768,12 +1798,12 @@ img {
     .section-title {
         margin-bottom: 35px;
         max-width: 100%;
-    
+
         .sub-title {
             font-size: 14px;
             margin-bottom: 20px;
             padding: 10px 15px 10px 35px;
-            
+
             i {
                 margin-top: 0;
                 left: 15px;
@@ -1889,7 +1919,7 @@ img {
                 opacity: 1;
                 margin-bottom: 25px;
                 visibility: visible;
-    
+
                 [class*=owl-] {
                     top: 0;
                     left: 0;
@@ -1923,7 +1953,7 @@ img {
                 opacity: 1;
                 margin-bottom: 25px;
                 visibility: visible;
-    
+
                 [class*=owl-] {
                     top: 0;
                     left: 0;
@@ -1949,7 +1979,7 @@ img {
                 opacity: 1;
                 margin-bottom: 25px;
                 visibility: visible;
-    
+
                 [class*=owl-] {
                     top: 0;
                     left: 0;
@@ -2029,7 +2059,7 @@ img {
     }
     .covid-page-banner-content {
         top: 0;
-    
+
         h3 {
             font-size: 29px;
             margin-bottom: 10px;
@@ -2038,11 +2068,11 @@ img {
     .covid-page-banner-image {
         margin-top: 25px;
     }
-    
+
     // Pagination
     .pagination-area {
         margin-top: 10px;
-    
+
         .page-numbers {
             width: 40px;
             height: 40px;
@@ -2120,7 +2150,7 @@ img {
                 opacity: 1;
                 margin-bottom: 5px;
                 visibility: visible;
-    
+
                 [class*=owl-] {
                     top: 0;
                     left: 0;
@@ -2146,7 +2176,7 @@ img {
                 opacity: 1;
                 margin-bottom: 25px;
                 visibility: visible;
-    
+
                 [class*=owl-] {
                     top: 0;
                     left: 0;
@@ -2172,7 +2202,7 @@ img {
                 opacity: 1;
                 margin-bottom: 25px;
                 visibility: visible;
-    
+
                 [class*=owl-] {
                     top: 0;
                     left: 0;
@@ -2205,17 +2235,17 @@ img {
     }
     .covid-page-banner-content {
         top: -20px;
-    
+
         h3 {
             font-size: 35px;
             margin-bottom: 12px;
         }
     }
-    
+
     // Pagination
     .pagination-area {
         margin-top: 15px;
-    
+
         .page-numbers {
             width: 40px;
             height: 40px;
@@ -2254,7 +2284,7 @@ img {
                     height: 40px;
                     width: 40px;
                     left: 0;
-                    
+
                     &.owl-next {
                         border-radius: 50% 0 0 50%;
                         left: auto;
@@ -2270,7 +2300,7 @@ img {
                 opacity: 1;
                 margin-bottom: 5px;
                 visibility: visible;
-    
+
                 [class*=owl-] {
                     top: 0;
                     left: 0;
@@ -2296,7 +2326,7 @@ img {
                 opacity: 1;
                 margin-bottom: 25px;
                 visibility: visible;
-    
+
                 [class*=owl-] {
                     top: 0;
                     left: 0;
@@ -2322,7 +2352,7 @@ img {
                 opacity: 1;
                 margin-bottom: 25px;
                 visibility: visible;
-    
+
                 [class*=owl-] {
                     top: 0;
                     left: 0;
@@ -2354,7 +2384,7 @@ img {
             .owl-nav {
                 [class*=owl-] {
                     left: 100px;
-                    
+
                     &.owl-next {
                         left: auto;
                         right: 100px;
@@ -2368,7 +2398,7 @@ img {
             .owl-nav {
                 [class*=owl-] {
                     left: -55px;
-                    
+
                     &.owl-next {
                         left: auto;
                         right: -55px;
@@ -2382,7 +2412,7 @@ img {
             .owl-nav {
                 [class*=owl-] {
                     left: -65px;
-                    
+
                     &.owl-next {
                         left: auto;
                         right: -65px;
@@ -2396,7 +2426,7 @@ img {
             .owl-nav {
                 [class*=owl-] {
                     left: -65px;
-                    
+
                     &.owl-next {
                         left: auto;
                         right: -65px;

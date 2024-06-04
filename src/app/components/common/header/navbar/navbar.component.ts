@@ -34,11 +34,8 @@ export class NavbarComponent implements OnInit {
     @HostListener('window:scroll', ['$event'])
     checkScroll() {
         const scrollPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-        if (scrollPosition >= 50) {
-            this.isSticky = true;
-        } else {
-            this.isSticky = false;
-        }
+        this.isSticky = scrollPosition >= 50;
     }
 
+    isShowingLogo: boolean = this.isSticky;
 }

@@ -12,6 +12,7 @@
     border: 1px solid #f5f5f5;
     transition: var(--transition);
     background-color: var(--white-color);
+    box-shadow: rgba(149, 157, 165, 0.2) 1px 5px;
 
     .tracker-image {
         text-align: center;
@@ -25,7 +26,7 @@
         margin-top: 25px;
 
         .sub {
-            color: var(--covid-main-color);
+            color: var(--main-color);
             display: inline-block;
             margin-bottom: 12px;
         }
@@ -39,11 +40,13 @@
         }
         p {
             .one {
+                color: dimgrey;
                 b {
                     color: var(--covid-black-color);
                     font-weight: 500;
                 }
             }
+
             .two {
                 color: var(--covid-black-color);
                 font-weight: 500;
@@ -51,7 +54,7 @@
         }
     }
     &:hover {
-        border-color: var(--covid-main-color);
+        border-color: var(--main-color);
     }
 }
 
@@ -60,10 +63,10 @@
 
     .covid-tracker-card {
         padding: 20px;
-    
+
         .tracker-content {
             margin-top: 20px;
-    
+
             .sub {
                 margin-bottom: 10px;
             }
@@ -84,10 +87,10 @@
 
     .covid-tracker-card {
         padding: 35px;
-        
+
         .tracker-content {
             margin-top: 20px;
-    
+
             .sub {
                 margin-bottom: 10px;
             }

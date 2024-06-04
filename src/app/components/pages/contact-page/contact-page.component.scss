@@ -15,7 +15,7 @@
             height: 55px;
             box-shadow: unset;
             transition: var(--transition);
-            color: var(--paragraph-color2);
+            color: black;
             background-color: var(--white-color);
             border: 1px solid var(--white-color);
             font: {
@@ -28,10 +28,10 @@
             };
             &::placeholder {
                 transition: var(--transition);
-                color: var(--paragraph-color2);
+                color: gray;
             }
             &:focus {
-                border-color: var(--hospital-main-color);
+                border-color: var(--main-color);
 
                 &::placeholder {
                     color: transparent;
@@ -46,7 +46,7 @@
     .default-btn {
         width: 100%;
         font-family: var(--hospital-font-family);
-        background-color: var(--hospital-main-color);
+        background-color: var(--main-color);
 
         &:hover {
             background-color: var(--hospital-black-color);
@@ -67,7 +67,7 @@ iframe {
         background-color: transparent;
         border-radius: 0;
         padding: 0;
-    
+
         .section-title {
             &.with-hospital-color {
                 max-width: 100%;
@@ -75,7 +75,7 @@ iframe {
         }
         .form-group {
             margin-bottom: 15px;
-    
+
             .form-control {
                 height: 50px;
                 font-size: 14px;
@@ -109,7 +109,7 @@ iframe {
 
     .hospital-contact-form {
         padding: 50px;
-    
+
         .section-title {
             &.with-hospital-color {
                 max-width: 100%;
@@ -117,7 +117,7 @@ iframe {
         }
         .form-group {
             margin-bottom: 25px;
-    
+
             .form-control {
                 font-size: 15px;
                 padding: {

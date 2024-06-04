@@ -10,21 +10,22 @@
         content: '';
         height: 30%;
         position: absolute;
-        background-color: #eff8fb;
+        background-color: #171b2a;
     }
 }
 .newsletter-inner-box {
-    background-color: var(--main-color2);
+    background: linear-gradient(90deg, var(--main-color) 0.69%, #ffffff 150.54%);
     padding: 50px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
     .newsletter-content {
-        max-width: 450px;
+        max-width: 700px;
 
         h2 {
             margin-bottom: 15px;
             color: var(--white-color);
             font: {
-                size: 24px;
+                size: 36px;
                 weight: 500;
                 family: var(--font-family2);
             };
@@ -47,7 +48,7 @@
             font-size: var(--font-size);
             background-color: var(--white-color);
             border: 1px solid var(--white-color);
-    
+
             &::placeholder {
                 color: var(--paragraph-color2);
                 transition: var(--transition);
@@ -69,16 +70,16 @@
             border-radius: 0;
             line-height: 52px;
             position: absolute;
-            color: var(--white-color);
+            color: var(--main-color2 );
             transition: var(--transition);
-            background-color: var(--main-color2);
+            background-color: var(--white-color);
 
             &:hover {
                 background-color: var(--main-color);
                 color: var(--white-color);
             }
         }
-    }  
+    }
 }
 
 /* Max width 767px */
@@ -86,12 +87,12 @@
 
     .newsletter-inner-box {
         padding: 60px 15px;
-    
+
         .newsletter-content {
             max-width: 100%;
             text-align: center;
             margin-bottom: 20px;
-    
+
             h2 {
                 margin-bottom: 10px;
                 font-size: 19px;
@@ -110,7 +111,7 @@
                 height: 44px;
                 line-height: 48px;
             }
-        }  
+        }
     }
 
 }
@@ -132,18 +133,17 @@
 
     .newsletter-inner-box {
         padding: 50px;
-    
+
         .newsletter-content {
-            max-width: 450px;
             text-align: center;
             margin: {
                 left: auto;
                 right: auto;
                 bottom: 20px;
             };
-            h2 {
+            h1 {
                 margin-bottom: 10px;
-                font-size: 21px;
+                font-size: 36px;
             }
         }
         .newsletter-form {
@@ -152,7 +152,7 @@
                 padding: 15px;
                 font-size: 15px;
             }
-        }  
+        }
     }
 
 }

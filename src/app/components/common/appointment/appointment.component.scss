@@ -32,7 +32,7 @@
             margin-bottom: 15px;
             position: relative;
             padding-left: 58px;
-    
+
             i {
                 top: 0;
                 left: 0;
@@ -104,7 +104,7 @@
                 transform: translateY(-50%);
                 transition: var(--transition);
                 background-color: var(--main-color);
-    
+
                 i {
                     transform: translateY(-50%);
                     position: absolute;
@@ -172,7 +172,7 @@
                         right: 15px;
                     };
                     &::placeholder {
-                        color: var(--paragraph-color);
+                        color: var(--white-color);
                         transition: var(--transition);
                     }
                     &:focus {
@@ -205,7 +205,7 @@
             max-width: 500px;
             border-radius: 10px;
             background-color: var(--white-color);
-    
+
             h4 {
                 line-height: 1.4;
                 position: relative;
@@ -227,7 +227,7 @@
             form {
                 .form-group {
                     margin-bottom: 15px;
-    
+
                     .form-control {
                         outline: 0;
                         width: 100%;
@@ -244,12 +244,12 @@
                             right: 15px;
                         };
                         &::placeholder {
-                            color: var(--paragraph-color);
+                            color: var(--white-color);
                             transition: var(--transition);
                         }
                         &:focus {
                             border-color: var(--main-color);
-    
+
                             &::placeholder {
                                 color: transparent;
                             }
@@ -331,7 +331,7 @@
                         right: 15px;
                     };
                     &::placeholder {
-                        color: var(--paragraph-color);
+                        color: var(--white-color);
                         transition: var(--transition);
                     }
                     &:focus {
@@ -381,7 +381,7 @@
                 transition: var(--transition);
                 border: 1px solid #eeeeee;
                 font-size: var(--font-size);
-                color: var(--black-color2);
+                color: var(--white-color);
                 box-shadow: none;
                 border-radius: 0;
                 display: block;
@@ -631,11 +631,11 @@
     .appointment-overview-contact {
         .appointment-info {
             padding: 20px;
-    
+
             .call-info {
                 margin-bottom: 10px;
                 padding-left: 40px;
-        
+
                 i {
                     font-size: 30px;
                 }
@@ -650,7 +650,7 @@
     }
     .appointment-overview-box {
         padding: 25px;
-    
+
         .content {
             h4 {
                 margin-bottom: 15px;
@@ -660,7 +660,7 @@
                 .video-btn {
                     width: 50px;
                     height: 50px;
-        
+
                     i {
                         font-size: 40px;
                     }
@@ -679,6 +679,7 @@
                 .form-group {
                     .form-control {
                         font-size: 14px;
+                        padding: 30px;
                     }
                 }
                 .default-btn {
@@ -689,12 +690,12 @@
     }
     .appointment-inner-box {
         padding: 30px;
-        
+
         .appointment-form {
             padding: 20px;
             margin-left: 0;
             max-width: 100%;
-    
+
             h4 {
                 margin-bottom: 15px;
                 padding-left: 28px;
@@ -714,7 +715,7 @@
             .appointment-form {
                 padding: 20px;
                 max-width: 100%;
-        
+
                 h4 {
                     margin-bottom: 15px;
                     padding-left: 28px;
@@ -732,12 +733,12 @@
     }
     .dental-tourism-appointment-form {
         max-width: 100%;
-    
+
         h4 {
             font-size: 24px;
             padding-left: 0;
             margin-bottom: 25px;
-    
+
             i {
                 display: none;
             }
@@ -745,7 +746,8 @@
         form {
             .form-group {
                 margin-bottom: 15px;
-    
+                padding: 10px 10px 10px 10px;
+
                 .form-control {
                     font-size: 14px;
                     height: 50px;
@@ -783,14 +785,14 @@
     .skin-care-appointment-image {
         height: auto;
         background-image: unset !important;
-        
+
         img {
             display: inline-block;
         }
     }
     .skin-care-appointment-form {
         padding: 25px 0 60px;
-    
+
         h4 {
             margin-bottom: 15px;
             padding-left: 28px;
@@ -799,7 +801,7 @@
         form {
             .form-group {
                 margin-bottom: 15px;
-    
+
                 .form-control {
                     font-size: 14px;
                     height: 50px;
@@ -862,11 +864,11 @@
     .appointment-overview-contact {
         .appointment-info {
             padding: 25px;
-    
+
             .call-info {
                 margin-bottom: 12px;
                 padding-left: 50px;
-        
+
                 i {
                     font-size: 35px;
                 }
@@ -878,7 +880,7 @@
     }
     .appointment-overview-box {
         padding: 25px;
-    
+
         .content {
             h4 {
                 font-size: 22px;
@@ -902,11 +904,11 @@
     }
     .appointment-inner-box {
         padding: 80px 50px;
-        
+
         .appointment-form {
             padding: 30px;
             max-width: 350px;
-    
+
             h4 {
                 font-size: 22px;
                 padding-left: 30px;
@@ -926,7 +928,7 @@
             .appointment-form {
                 padding: 30px;
                 max-width: 400px;
-        
+
                 h4 {
                     font-size: 22px;
                     padding-left: 30px;
@@ -944,12 +946,12 @@
     }
     .dental-tourism-appointment-form {
         max-width: 490px;
-    
+
         h4 {
             font-size: 29px;
             padding-left: 44px;
             margin-bottom: 25px;
-    
+
             i {
                 top: 2px;
             }
@@ -957,7 +959,7 @@
         form {
             .form-group {
                 margin-bottom: 20px;
-    
+
                 .form-control {
                     font-size: 15px;
                     height: 55px;
@@ -1003,12 +1005,12 @@
     }
     .skin-care-appointment-form {
         padding: 25px 0 80px;
-    
+
         h4 {
             font-size: 29px;
             padding-left: 44px;
             margin-bottom: 25px;
-    
+
             i {
                 top: 2px;
             }
@@ -1016,7 +1018,7 @@
         form {
             .form-group {
                 margin-bottom: 20px;
-    
+
                 .form-control {
                     font-size: 15px;
                     height: 55px;
@@ -1063,11 +1065,11 @@
     .appointment-overview-contact {
         .appointment-info {
             padding: 25px;
-    
+
             .call-info {
                 margin-bottom: 10px;
                 padding-left: 43px;
-        
+
                 i {
                     font-size: 30px;
                     top: 10px;
@@ -1084,7 +1086,7 @@
     }
     .appointment-overview-box {
         padding: 25px;
-    
+
         .content {
             h4 {
                 margin-bottom: 20px;
@@ -1100,10 +1102,10 @@
     }
     .appointment-inner-box {
         padding: 80px;
-        
+
         .appointment-form {
             padding: 30px;
-    
+
             h4 {
                 font-size: 24px;
             }
@@ -1120,7 +1122,7 @@
     }
     .dental-tourism-appointment-form {
         max-width: 600px;
-    
+
         h4 {
             font-size: 35px;
             padding-left: 50px;
@@ -1128,7 +1130,7 @@
     }
     .skin-care-appointment-form {
         padding: 80px 40px;
-    
+
         h4 {
             font-size: 31px;
             padding-left: 45px;
@@ -1142,7 +1144,7 @@
 
     .appointment-overview-box {
         padding: 25px;
-    
+
         .content {
             h4 {
                 font-size: 22px;
@@ -1158,7 +1160,7 @@
     }
     .skin-care-appointment-form {
         padding: 100px 60px;
-    
+
         h4 {
             font-size: 36px;
         }
@@ -1168,3 +1170,8 @@
 
 /* Min width 1600px */
 @media only screen and (min-width: 1600px) {}
+
+
+.form-control{
+    margin: 15px;
+}

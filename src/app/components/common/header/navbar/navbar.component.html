@@ -4,9 +4,9 @@
 >
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light" [class.active]="classApplied">
-            <a class="navbar-brand" routerLink="/" (click)="toggleClass()">
-                <h1>
-                    Inba
+            <a routerLink="/" >
+                <h1 [ngClass]="{'show': !isSticky}">
+                    <img src="assets/images/inopro/header/inopro_header_logo_mobile.png" alt="Inopro logo"/>
                 </h1>
             </a>
             <button class="navbar-toggler" type="button" (click)="toggleClass()">
@@ -51,6 +51,7 @@
                         </a>
                     </li>
                 </ul>
+
                 <ul class="navbar-nav for-responsive">
                     <li class="nav-item">
                         <a routerLink="/home" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()">
@@ -88,8 +89,8 @@
                 </ul>
                 <div class="others-option d-flex align-items-center">
                     <div class="option-item">
-                        <a routerLink="/appointment" class="default-btn">
-                            Book An Appointment
+                        <a routerLink="/service-details"  class="default-btn">
+                            Discover Our Products
                         </a>
                     </div>
                 </div>

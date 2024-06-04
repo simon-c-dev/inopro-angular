@@ -11,15 +11,18 @@
             content: '';
             height: 30%;
             position: absolute;
-            background-color: #eff8fb;
+            background-color: var(--white-color);
         }
     }
 }
 .skin-care-partner-inner-box {
-    background-color: var(--black-color2);
-    padding: 100px 50px;
+    background-color: var(--main-color);
+    padding: 60px 50px;
+    margin-bottom: 50px;
     text-align: center;
-    
+    box-shadow: rgba(149, 157, 165, 0.2) 8px 8px 8px 8px;
+
+
     .skin-care-partner-card {
         a {
             display: block;
@@ -36,7 +39,7 @@
 @media only screen and (max-width : 767px) {
 
     .skin-care-partner-inner-box {
-        padding: 60px 15px;
+        padding: 40px 15px;
     }
 
 }
@@ -48,7 +51,7 @@
 @media only screen and (min-width : 768px) and (max-width : 991px) {
 
     .skin-care-partner-inner-box {
-        padding: 80px 30px;
+        padding: 50px 30px;
     }
 
 }
@@ -61,3 +64,7 @@
 
 /* Min width 1600px */
 @media only screen and (min-width: 1600px) {}
+
+span {
+    color: white;
+}
