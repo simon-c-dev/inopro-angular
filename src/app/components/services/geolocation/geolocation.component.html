@@ -1,0 +1,14 @@
+<div class="card flex justify-content-center">
+    <p-dialog header="Redirection" [modal]="true" [(visible)]="visible" [style]="{ width: '25rem' }">
+        <div class="container">
+            <div class="main-slides-content">
+                <p>You are currently on the Canadian website. If you would like to visit the US website, please click below.</p>
+                <div>
+                    <a routerLink="/" (click)="closeDialog()" class="default-btn">
+                        Go to US Site
+                    </a>
+                </div>
+            </div>
+        </div>
+    </p-dialog>
+</div>

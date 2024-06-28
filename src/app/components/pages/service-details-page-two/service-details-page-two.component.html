@@ -1,14 +1,15 @@
+
 <!-- Page Banner -->
 <div
     class="page-banner-area three ptb-100"
-    style="background-image: url(assets/images/hospital/page-banner/bg-2.jpg);"
+    style="background-image: url(assets/images/inopro/breadcrumbBanner.png);"
 >
     <div class="container">
         <div class="page-banner-content">
-            <h2>Service Details</h2>
+            <h2 style="color: var(--main-color)">Products</h2>
             <ul class="pages-list">
                 <li><a href="index.html">Home</a></li>
-                <li>Service Details</li>
+                <li>Products</li>
             </ul>
         </div>
     </div>
@@ -20,43 +21,26 @@
         <div class="row">
             <div class="col-lg-4 col-md-12">
                 <aside class="widget-area">
-                    <div class="widget widget_search">
-                        <form class="search-form">
-                            <input type="search" class="search-field" placeholder="Search...">
-                            <button type="submit">
-                                <i class='bx bx-search-alt'></i>
-                            </button>
-                        </form>
-                    </div>
                     <div class="widget widget_categories">
-                        <h3 class="widget-title">All Services</h3>
+                        <h3 class="widget-title">All products</h3>
                         <ul>
-                            <li><a routerLink="/services-6">Plastic Surgery</a></li>
-                            <li><a routerLink="/services-6">Neurology</a></li>
-                            <li><a routerLink="/services-6">Eye Care Service</a></li>
-                            <li><a routerLink="/services-6">Dental Service</a></li>
-                            <li><a routerLink="/services-6">Cardiology</a></li>
-                            <li><a routerLink="/services-6">X- ray & RMI Service</a></li>
+                            <li><a routerLink="/services-6">Irrigo</a></li>
+                            <li><a routerLink="/services-6">Irrilin</a></li>
+                            <li><a routerLink="/services-6">Sopuro</a></li>
+                            <li><a routerLink="/services-6">Sucro24</a></li>
+                            <li><a routerLink="/services-6">Inopro</a></li>
+                            <li><a routerLink="/services-6">Irrilag</a></li>
                         </ul>
                     </div>
                     <div class="widget widget_download_file">
                         <h3 class="widget-title">Download File</h3>
                         <ul class="download-file-list">
                             <li>
-                                <a href="javascript:void(0)">
+                                <a href="../../../../assets/doc/Irrigo-Sell-Sheet-2021-EN.pdf" download="IrrigoSellSheet2021">
                                     <img src="assets/images/hospital/pdf.png" alt="image">
                                     <div class="title">
-                                        <h4>Service Brochure</h4>
+                                        <h4>Product Brochure</h4>
                                         <span>PDF | 22 MB</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)">
-                                    <img src="assets/images/hospital/doc.png" alt="image">
-                                    <div class="title">
-                                        <h4>Company Profile</h4>
-                                        <span>Word | 27 MB</span>
                                     </div>
                                 </a>
                             </li>
@@ -64,95 +48,163 @@
                     </div>
                     <div
                         class="widget widget_services_info"
-                        style="background-image: url(assets/images/hospital/services-info.jpg);"
                     >
                         <div class="info">
                             <i class='bx bx-phone-call'></i>
                             <h4>Contact Us Free</h4>
-                            <a href="tel:00874847348734">(008) 7484 7348 734</a>
+                            <a href="tel:514-792-5440">514-792-5440
+                            </a>
                         </div>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout the point of using.</p>
-                        <a href="#" class="default-btn">Contact Us</a>
+                        <p>Contact us if you have any queries or want to learn more about our selection of products.</p>
+                        <a routerLink="/contact" class="default-btn">Contact Us</a>
                     </div>
                 </aside>
             </div>
             <div class="col-lg-8 col-md-12">
-                <div class="hospital-service-details-desc">
-                    <img src="assets/images/hospital/services-details/services-details1.jpg" alt="image">
+                <div class="col-lg-10"
+                     style="display: block;
+                            margin-left: auto;
+                            margin-right: auto;">
+                    <owl-carousel-o [options]="homeSlides">
+                        <ng-template carouselSlide>
+                            <div
+                                class="main-slides-item"
+                            >
+                                <img src="assets/images/inopro/irrigo/irrigoCropped.png" width="816" height="804">
+                            </div>
+                        </ng-template>
+                        <ng-template carouselSlide>
+                            <div
+                                class="main-slides-item"
+                            >
+                                <img ngSrc="assets/images/inopro/irrigo/irrigoCropped.png" width="816" height="804">
+                            </div>
+                        </ng-template>
+                        <ng-template carouselSlide>
+                            <div
+                                class="main-slides-item"
+                            >
+                                <img ngSrc="assets/images/inopro/irrigo/irrigoCropped.png" width="816" height="804">
+                            </div>
+                        </ng-template>
+                    </owl-carousel-o>
+                </div>
                     <div class="content">
-                        <h3>Wide Range Of Facilities & Hospital Services</h3>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-                        <p>To use a passage of lorem ipsum you need to be sure there isn't anything embarrassing hidden in the middle of text all the lorem ipsum generators on the Internet tend to repeat predefined chunks as necessary.</p>
+                        <h1>Irrigo</h1>
+                        <p>Is the first sterile sodium chloride solution especially designed to meet nurses needs. And it is now available to everyone!</p>
+                        <p>A wound irrigation requires on average 60 ml of solution. So why would you buy bulky to carry and store formats? Choose an all-in-one solution, making obsolete the use of cabarets, cannulae and syringes. With Irrigo, wound irrigation is more efficient and life is simpler!</p>
+
                     </div>
-                    <div class="row justify-content-center">
-                        <div class="col-lg-6 col-md-6">
-                            <div class="service-details-card">
-                                <div class="number">01</div>
-                                <h4>Standards Of Treatment</h4>
-                                <p>It is a long established fact that a eader will be distracted by threadable.</p>
-                            </div>
+
+
+                    <div class="container">
+                        <div class="section-title" style="margin-top: 50px">
+                            <h3>Product features</h3>
                         </div>
-                        <div class="col-lg-6 col-md-6">
-                            <div class="service-details-card">
-                                <div class="number">02</div>
-                                <h4>Well Communication</h4>
-                                <p>It is a long established fact that a eader will be distracted by threadable.</p>
+                        <div class="row justify-content-center">
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="single-features-box">
+                                    <div class="content">
+                                        <img
+                                            ngSrc="../../../../assets/images/inopro/ICONE_ALL_IN_ONE.png" alt=""
+                                            height="500" width="500"/>
+                                        <h6>
+                                            <a routerLink="/service-details">
+                                                <br>
+                                                All-in-one
+                                                first aid
+                                                solution
+                                                <br><br>
+                                            </a>
+                                        </h6>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6">
-                            <div class="service-details-card">
-                                <div class="number">03</div>
-                                <h4>Infection Prevention</h4>
-                                <p>It is a long established fact that a eader will be distracted by threadable.</p>
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="single-features-box">
+                                    <div class="content">
+
+                                        <img ngSrc="../../../../assets/images/inopro/ICONE_CERTIFIED_STERILE.png" alt=""
+                                             height="500" width="500"/><h6>
+                                            <a routerLink="/service-details">
+                                                <br>
+                                                Sterile sodium
+                                                chloride solution
+                                                <br>
+                                            </a>
+                                        </h6>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6">
-                            <div class="service-details-card">
-                                <div class="number">04</div>
-                                <h4>30+ Years Experience</h4>
-                                <p>It is a long established fact that a eader will be distracted by threadable.</p>
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="single-features-box">
+                                    <div class="content">
+                                        <img ngSrc="../../../../assets/images/inopro/ICONES_Rain.png" alt=""
+                                             height="500" width="500"/>
+                                        <h6>
+                                            <a routerLink="/service-details">
+                                                <br>
+                                                Guarantees
+                                                a pressure of
+                                                0 to 15 psi
+                                            </a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="single-features-box">
+                                    <div class="content">
+                                        <img ngSrc="../../../../assets/images/inopro/ICONES_Plaster.png" alt=""
+                                             height="500" width="500"/>
+                                        <h6>
+                                            <a routerLink="/service-details">
+                                                Wounds, bites,
+                                                scratches,
+                                                scrapes,
+                                                piercings, etc.
+                                            </a>
+                                        </h6>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="row justify-content-center align-items-center">
                         <div class="col-lg-6 col-md-6">
                             <div class="service-details-inner-content">
-                                <h4>Medical Laboratory And Specialists Services</h4>
-                                <p>Simply dummy text of the printing and typesetting industry lorem ipsum has been the industry's standard dummy.</p>
-                                <ul class="list">
-                                    <li><i class='bx bx-check'></i> Routine and medical care</li>
-                                    <li><i class='bx bx-check'></i> Excellence in Healthcare every</li>
-                                    <li><i class='bx bx-check'></i> Building a healthy environment</li>
-                                    <li><i class='bx bx-check'></i> Routine and medical care</li>
-                                    <li><i class='bx bx-check'></i> Excellence in Healthcare every</li>
+                                <h4>Ideal for first aid kits</h4>
+                                <p>Dislodges bacteria with low and high mechanical pressure from 0 to15 psi</p>
+                                <ul class="list" style="list-style-type: none">
+                                    <li><i class='bx bx-check' style="color: var(--main-color); font-size: 30px; "></i> Safe to use, reduces risk of contamination</li>
+                                    <li><i class='bx bx-check' style="color: var(--main-color); font-size: 30px; "></i> 60ml bottle</li>
+                                    <li><i class='bx bx-check' style="color: var(--main-color); font-size: 30px; "></i> Economical solution</li>
+                                    <li><i class='bx bx-check' style="color: var(--main-color); font-size: 30px; "></i> Single-use, individual</li>
+                                    <li><i class='bx bx-check' style="color: var(--main-color); font-size: 30px; "></i> Excellence in Healthcare every</li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6">
                             <div class="service-details-inner-image">
-                                <img src="assets/images/hospital/services-details/services-details2.jpg" alt="image">
+                                <img src="assets/images/inopro/productSlide/Inopro-Web-thumbnails-Home-1.png" alt="image">
                             </div>
                         </div>
                     </div>
                     <div class="content">
-                        <h4>Health Tips & Information</h4>
-                        <p>There are many variations of passages of lorem ipsum available but the majority have suffered alteration in some humour or randomised words which don't look even slightly believable if you are going to use a passage.</p>
+                        <h4>The right solution for your needs</h4>
+                        <p>Irrigo is a sterile solution for gently cleaning wounds, scratches, scrapes and bites. It removes foreign matter to promote healing and prevent infection.</p>
+                        <div class="service-details-inner-content">
+                        <ul class="list" style="list-style-type: none">
+                            <li style="font-size: large; font-weight: bold" ><i class='bx bx-shield-plus' style="color: var(--main-color); font-size: 30px;"></i> 0.9% sterile sodium chloride solution</li>
+                            <li><i class='bx bx-check' style="color: var(--main-color); font-size: 30px;"></i> Meets Canadian best practices for wound cleansing</li>
+                            <li><i class='bx bx-check' style="color: var(--main-color); font-size: 30px;"></i> Health Canada approved NPN: 80056020</li>
+                            <li style="font-size: large; font-weight: bold" ><i class='bx bx-recycle' style="color: var(--main-color); font-size: 30px;"></i> Irrigo an environmentally friendly choice</li>
+                            <li><i class='bx bx-check' style="color: var(--main-color); font-size: 30px;"></i> 100% recyclable bottle</li>
+                        </ul>
+                        </div>
                     </div>
-                    <div class="hospital-faq-accordion">
-                        <accordion [isAnimated]="true" [closeOthers]="oneAtATime">
-                            <accordion-group heading="How can I book an appointment for emergency treatment?">
-                                <p>Lorem ipsum dolor sit amet cons todo eiusmod tempor incididu ut ali xercitation ullamco Lorem ipsum dolor sit amet consectetur adipisic elit sed do eiusmod tem incidid dolore magna aliqua.</p>
-                            </accordion-group>
-                            <accordion-group heading="Do you use anesthetics for operation in your hospital?">
-                                <p>Lorem ipsum dolor sit amet cons todo eiusmod tempor incididu ut ali xercitation ullamco Lorem ipsum dolor sit amet consectetur adipisic elit sed do eiusmod tem incidid dolore magna aliqua.</p>
-                            </accordion-group>
-                            <accordion-group heading="What is procedures of parathyroid scanning in your hospital?">
-                                <p>Lorem ipsum dolor sit amet cons todo eiusmod tempor incididu ut ali xercitation ullamco Lorem ipsum dolor sit amet consectetur adipisic elit sed do eiusmod tem incidid dolore magna aliqua.</p>
-                            </accordion-group>
-                        </accordion>
-                    </div>
+
                 </div>
             </div>
         </div>
     </div>
-</div>

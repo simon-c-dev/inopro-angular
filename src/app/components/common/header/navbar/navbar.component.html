@@ -1,6 +1,6 @@
 <div
     class="navbar-area"
-    [ngClass]="{'d-none': router.url === '/index-4' || router.url === '/index-5' || router.url === '/index-6' || router.url === '/index-7' || router.url === '/index-8'|| router.url === '/services-4' || router.url === '/services-5' || router.url === '/services-6' || router.url === '/service-details-2' || router.url === '/contact-us-2' || router.url === '/contact-us-3' || router.url === '/about-us-3' || router.url === '/doctors' || router.url === '/portfolio' || router.url === '/portfolio-details', 'sticky': isSticky}"
+    [ngClass]="{'d-none': router.url === '/index-4' || router.url === '/index-5' || router.url === '/index-6' || router.url === '/index-7' || router.url === '/index-8'|| router.url === '/services-4' || router.url === '/services-5' || router.url === '/services-6' || router.url === '/contact-us-2' || router.url === '/contact-us-3' || router.url === '/about-us-3' || router.url === '/doctors' || router.url === '/portfolio' || router.url === '/portfolio-details', 'sticky': isSticky}"
 >
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light" [class.active]="classApplied">
@@ -29,21 +29,9 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="javascript:void(0)" class="dropdown-toggle nav-link">
-                            Services
+                        <a routerLink="/service-details-2" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                            Products
                         </a>
-                        <ul class="dropdown-menu">
-                            <li class="nav-item">
-                                <a routerLink="/service-details" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                                    Service Details - 1
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a routerLink="/service-details-2" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                                    Service Details - 2
-                                </a>
-                            </li>
-                        </ul>
                     </li>
                     <li class="nav-item">
                         <a routerLink="/contact" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
@@ -65,21 +53,9 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="javascript:void(0)" class="dropdown-toggle nav-link">
+                        <a routerLink="/service-details-2" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
                             Products
                         </a>
-                        <ul class="dropdown-menu">
-                            <li class="nav-item">
-                                <a routerLink="/service-details" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()">
-                                    Product Details - 1
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a routerLink="/service-details-2" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()">
-                                    Product Details - 2
-                                </a>
-                            </li>
-                        </ul>
                     </li>
                     <li class="nav-item">
                         <a routerLink="/contact" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()">
@@ -89,7 +65,7 @@
                 </ul>
                 <div class="others-option d-flex align-items-center">
                     <div class="option-item">
-                        <a routerLink="/service-details"  class="default-btn">
+                        <a routerLink="/service-details-2"  class="default-btn">
                             Discover Our Products
                         </a>
                     </div>

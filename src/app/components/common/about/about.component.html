@@ -1,6 +1,7 @@
 <!-- Default About Section -->
 <div
-    class="about-area pb-100"
+    style="background-image: url(assets/images/covid/tracker/map.jpg);"
+    class="about-area ptb-100"
     [ngClass]="{'d-none': router.url === '/index-2' || router.url === '/index-3' || router.url === '/index-4' || router.url === '/index-5' || router.url === '/index-6' || router.url === '/index-7' || router.url === '/index-8' || router.url === '/about-us-2' || router.url === '/about-us-3'}"
 >
     <div class="container">
@@ -45,7 +46,7 @@
                         <div class="row">
                             <div class="col-6">
                                 <div class="about-info" style="padding-left: 0">
-                                        <a routerLink="/services" class="default-btn">Discover</a>
+                                        <a routerLink="/service-details-2" class="default-btn">Discover</a>
                                 </div>
                             </div>
                         </div>
@@ -54,7 +55,7 @@
             </div>
             <div class="col-lg-5 col-md-12">
                 <div class="about-image">
-                    <img src="assets/images/about/about-1.jpg" alt="about-image">
+                    <img ngSrc="../../../../assets/images/inopro/goutte.png" height="575" width="528" alt=""/>
                 </div>
             </div>
         </div>

@@ -12,11 +12,13 @@ import { TimepickerModule } from 'ngx-bootstrap/timepicker';
 import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HammerModule } from '@angular/platform-browser';
+import { IgxCarouselModule } from 'igniteui-angular';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent} from "./components/pages/home/home.component";
-import { HomeBannerComponent} from "./components/pages/home/home-banner/home-banner.component";
+import { HomeComponent } from './components/pages/home/home.component';
+import { HomeBannerComponent } from './components/pages/home/home-banner/home-banner.component';
 import { NotFoundComponent } from './components/common/not-found/not-found.component';
 import { FooterComponent } from './components/common/footer/footer.component';
 import { DentistsComponent } from './components/common/dentists/dentists.component';
@@ -33,12 +35,16 @@ import { NavbarComponent } from './components/common/header/navbar/navbar.compon
 import { SubscribeComponent } from './components/common/subscribe/subscribe.component';
 import { ApprovedVaccineComponent } from './components/common/approved-vaccine/approved-vaccine.component';
 import { ContactInfoComponent } from './components/common/contact-info/contact-info.component';
-import { ServiceDetailsPageOneComponent } from './components/pages/service-details-page-one/service-details-page-one.component';
 import { ServiceDetailsPageTwoComponent } from './components/pages/service-details-page-two/service-details-page-two.component';
 import { ComingSoonPageComponent } from './components/pages/coming-soon-page/coming-soon-page.component';
 import { AboutPageOneComponent } from './components/pages/about-page-one/about-page-one.component';
-import {ContactPageComponent} from "./components/pages/contact-page/contact-page.component";
-import {NgOptimizedImage} from "@angular/common";
+import { ContactPageComponent } from './components/pages/contact-page/contact-page.component';
+import { NgOptimizedImage } from '@angular/common';
+import { GeolocationComponent } from './components/services/geolocation/geolocation.component';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+import { Button } from 'primeng/button';
+import { TagModule } from 'primeng/tag';
+import { GalleriaModule } from 'primeng/galleria';
 
 @NgModule({
     declarations: [
@@ -62,7 +68,6 @@ import {NgOptimizedImage} from "@angular/common";
         SubscribeComponent,
         ApprovedVaccineComponent,
         ContactInfoComponent,
-        ServiceDetailsPageOneComponent,
         ServiceDetailsPageTwoComponent,
         ComingSoonPageComponent,
         AboutPageOneComponent,
@@ -83,9 +88,15 @@ import {NgOptimizedImage} from "@angular/common";
         HttpClientModule,
         ReactiveFormsModule,
         BsDropdownModule.forRoot(),
-        NgOptimizedImage
+        NgOptimizedImage,
+        GeolocationComponent,
+        Button,
+        TagModule,
     ],
-    providers: [],
+    providers: [
+        provideAnimationsAsync()
+    ],
     bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
