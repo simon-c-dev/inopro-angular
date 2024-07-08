@@ -17,56 +17,56 @@
                 </span>
             </button>
             <div class="collapse navbar-collapse">
-                <ul class="navbar-nav">
+                <ul *transloco="let t; read:'navigation'" class="navbar-nav">
                     <li class="nav-item">
-                        <a routerLink="/home" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                            Home
+                        <a  routerLink="/home" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                            {{t("home")}}
                         </a>
                     </li>
                     <li class="nav-item">
                         <a routerLink="/about-us" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                            About Us
+                            {{t("about")}}
                         </a>
                     </li>
                     <li class="nav-item">
                         <a routerLink="/service-details-2" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                            Products
+                            {{t("products")}}
                         </a>
                     </li>
                     <li class="nav-item">
                         <a routerLink="/contact" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                            Contact Us
+                            {{t("contact")}}
                         </a>
                     </li>
                 </ul>
 
-                <ul class="navbar-nav for-responsive">
+                <ul *transloco="let t; read:'navigation'" class="navbar-nav for-responsive">
                     <li class="nav-item">
-                        <a routerLink="/home" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()">
-                            Home
+                        <a  routerLink="/home" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()">
+                            {{t("home")}}
                         </a>
                     </li>
 
                     <li class="nav-item">
                         <a routerLink="/about-us" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()">
-                            About Us
+                            {{t("about")}}
                         </a>
                     </li>
                     <li class="nav-item">
                         <a routerLink="/service-details-2" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                            Products
+                            {{t("products")}}
                         </a>
                     </li>
                     <li class="nav-item">
                         <a routerLink="/contact" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" (click)="toggleClass()">
-                            Contact Us
+                            {{t("contact")}}
                         </a>
                     </li>
                 </ul>
                 <div class="others-option d-flex align-items-center">
                     <div class="option-item">
-                        <a routerLink="/service-details-2"  class="default-btn">
-                            Discover Our Products
+                        <a *transloco="let t; read:'buttons'"  routerLink="/service-details-2"  class="default-btn">
+                            {{t("discover")}}
                         </a>
                     </div>
                 </div>

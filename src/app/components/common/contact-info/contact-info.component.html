@@ -1,4 +1,4 @@
-<div class="hospital-information-area pt-100 pb-75">
+<div *transloco="let t; read:'contactUsPage'" class="hospital-information-area pt-100 pb-75">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-4 col-md-6 col-sm-6">
@@ -7,7 +7,7 @@
                         <div class="icon">
                             <i class='bx bx-map'></i>
                         </div>
-                        <h3>Office Address</h3>
+                        <h3>{{t("contactBanner.office")}}</h3>
                         <p>Cowansville, QC, Canada, J6A 7E9</p>
                     </div>
                     <div class="shape">
@@ -21,7 +21,7 @@
                         <div class="icon">
                             <i class='bx bx-envelope'></i>
                         </div>
-                        <h3>Email Us</h3>
+                        <h3>{{t("contactBanner.email")}}</h3>
                         <p>
                             <a href="mailto:hello&#64;inba.com">info&#64;inopro.ca</a>
                         </p>
@@ -37,7 +37,7 @@
                         <div class="icon">
                             <i class='bx bx-phone-call'></i>
                         </div>
-                        <h3>Contact Us Free</h3>
+                        <h3>{{t("contactBanner.contact")}}</h3>
                         <p>
                             <a href="tel:514-792-5440">514-792-5440</a>
                         </p>

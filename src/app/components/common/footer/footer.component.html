@@ -3,8 +3,8 @@
     class="skin-care-footer-area pt-100 d-none"
     [ngClass]="{'d-block':router.url === '/home' || router.url === '/contact' || router.url === '/service-details-2' || router.url === '/about-us' || router.url === '/index-5' || router.url === '/index-6' || router.url === '/services-4' || router.url === '/services-5'}"
 >
-    <div class="container">
-        <div class="row justify-content-center">
+    <div *transloco="let t; read:'footer'" class="container">
+        <div *transloco="let n; read:'navigation'" class="row justify-content-center">
             <div class="col-xl-3 col-lg-4 col-sm-6">
                 <div class="skin-care-footer-widget">
                     <h2>
@@ -13,7 +13,7 @@
                         </a>
                     </h2>
                     <p>
-                        Active in pharmaceutical, medical, and cosmetic fields, the Inopro group is a leading marketer of specialised waters in Quebec and Canada.
+                        {{t("description")}}
                     </p>
                     <ul class="info-list">
                         <li><i class='bx bx-map' style='color:#005cb9'></i>   Cowansville, Québec, Canada</li>
@@ -41,37 +41,37 @@
             </div>
             <div class="col-xl-2 col-lg-4 col-sm-6">
                 <div class="skin-care-footer-widget">
-                    <h3>Offer</h3>
+                    <h3>{{ t("offre") }}</h3>
                     <ul class="quick-links">
                         <li>
                             <i class='bx bxs-chevrons-right'></i>
-                            <a routerLink="/service-details-2">Products</a>
+                            <a routerLink="/service-details-2">{{ n("products") }}</a>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="col-xl-2 col-lg-4 col-sm-6">
                 <div class="skin-care-footer-widget">
-                    <h3>Information</h3>
+                    <h3>{{ t("information") }}</h3>
                     <ul class="quick-links">
                         <li>
                             <i class='bx bxs-chevrons-right'></i>
-                            <a routerLink="/about-us">About Us</a>
+                            <a routerLink="/about-us">{{ n("about") }}</a>
                         </li>
                         <li>
                             <i class='bx bxs-chevrons-right'></i>
-                            <a routerLink="/contact">Contact</a>
+                            <a routerLink="/contact">{{ n("contact") }}</a>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="col-xl-2 col-lg-4 col-sm-6">
                 <div class="skin-care-footer-widget">
-                    <h3>Home</h3>
+                    <h3>{{ t("home") }}</h3>
                     <ul class="quick-links">
                         <li>
                             <i class='bx bxs-chevrons-right'></i>
-                            <a routerLink="/home">Home</a>
+                            <a routerLink="/home">{{ n("home") }}</a>
                         </li>
                     </ul>
                 </div>
@@ -81,11 +81,12 @@
                     class="skin-care-footer-widget"
                     [ngClass]="{'d-none': router.url === '/index-6'}"
                 >
-                    <h3>Newsletter</h3>
+                    <h3>{{ t("newsletter") }}</h3>
                     <form class="newsletter-form">
-                        <p>Subscribe to our Newsletter to receive updates via email</p>
+                        <p>{{ t("subscribe") }}</p>
                         <div class="form-group">
-                            <input type="email" class="input-newsletter" placeholder="Your email address" name="email" required autocomplete="off">
+                            <label style="color: var(--paragraph-color2)">{{ t("email") }}</label>
+                            <input type="email" class="input-newsletter" name="email" required autocomplete="off">
                             <button type="submit"><i class='bx bx-send'></i></button>
                         </div>
                     </form>
@@ -95,7 +96,7 @@
         <div class="skin-care-copyright-area">
             <div class="container">
                 <div class="copyright-area-content">
-                    <p>All rights reserved &#64;Inopro 2024</p>
+                    <p>{{ t("rights") }}</p>
                 </div>
             </div>
         </div>

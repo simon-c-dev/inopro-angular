@@ -1,0 +1,269 @@
+{
+    "navigation": {
+        "home": "Home",
+        "about": "About Us",
+        "products": "Products",
+        "contact": "Contact Us",
+        "call": "Call Today",
+        "hours": "Open Hours"
+    },
+    "language": {
+        "fr": "French",
+        "en": "English"
+    },
+    "buttons": {
+        "discover": "Discover Our Products",
+        "contact": "Contact Us",
+        "view": "Details",
+        "viewAll": "All products",
+        "about": "About Us"
+    },
+    "partners": {
+        "pill": "Our partners"
+    },
+    "productGlance": {
+        "inopro":{
+            "role": "U.S.P Purified Sterile Water",
+            "title": "Inopro",
+            "description": "Laboratory analysis, medical institutions"
+        },
+        "irrilag":{
+            "role": "Colloïdal silver gel",
+            "title": "Irrilag",
+            "description": "Treat skin infection & protection"
+        },
+        "irrigo":{
+            "role": "Sterile sodium chloride solution",
+            "title": "Irrigo",
+            "description": "Wound cleaning & irrigation"
+        },
+        "irrilin":{
+            "role": "Aqueous Solution",
+            "title": "Irrilin",
+            "description": "Wound cleaning and irrigation"
+        },
+        "sopuro":{
+            "role": "Aloe Vera Gel",
+            "title": "Sopuro",
+            "description": "Antibacterial hand sanitizer"
+        },
+        "sucro24":{
+            "role": "Maple syrup based solution",
+            "title": "Sucro24",
+            "description": "Reduce impact of painful procedures"
+        }
+    },
+    "callToAction": {
+        "text":"Learn more about our wide selection of specialised waters and more",
+        "button": "Discover"
+    },
+    "footer": {
+        "description": "Active in pharmaceutical, medical, and cosmetic fields, the Inopro group is a leading marketer of specialised waters in Quebec and Canada.",
+        "offre": "Offer",
+        "information": "Information",
+        "home": "Home",
+        "newsletter": "Newsletter",
+        "subscribe": "Subscribe to our Newsletter to receive updates via email",
+        "email": "Your email address",
+        "rights": "All rights reserved @Inopro 2024"
+    },
+    "features": {
+        "pill": "What sets us apart",
+        "title": "The Inopro Group",
+        "leader": {
+            "title": "Leader",
+            "description": "The Inopro group is a leader in commercializing sterile specialized waters, renowned for its commitment to excellence and advancements."
+        },
+        "distribution": {
+            "title": "Distribution",
+            "description": "The Inopro group is a global leader in commercializing innovative pharmaceutical products, setting new industry standards worldwide."
+        },
+        "quality": {
+            "title": "Quality Products",
+            "description": "With unwavering dedication to unparalleled quality standards, Inopro asserts its leadership in the market, earning global trust and respect."
+        },
+        "service": {
+            "title": "Service",
+            "description": "Inopro makes the difference with personalized and impeccable customer service cementing its reputation as an industry leader."
+        }
+    },
+    "homeCarousell": {
+        "inopro": {
+            "pill": "Inopro U.S.P",
+            "title": "Wound irrigation with ",
+            "span1": "Purified Steril Water",
+            "description": "Make your life easier and use Inopro U.S.P purified deionized sterile water to remove bacteria with mechanical pressure up to 15 psi."
+        },
+        "irrigo": {
+            "pill": "Irrigo",
+            "title1": "The perfect ",
+            "span1": "All-in-one First Aid ",
+            "title2": "Solution",
+            "description": "Irrigo is the first sterile sodium chloride solution especially designed to meet nurses needs. And it is now available to everyone!"
+        },
+        "irrilin": {
+            "pill": "Irrilin",
+            "title1": "For a ",
+            "span1": "Simple, Efficient and Sterile ",
+            "title2": "solution",
+            "description": "Irrilin is an Aqueous Solution designed for wound cleaning and irrigation. Ideal to clean the skin and tissues as well as piercings and tattoos."
+        },
+        "sucro24": {
+            "pill": "Sucro24",
+            "title": "with the help of ",
+            "span1": "Comfort babies ",
+            "span2": "Sucro24",
+            "description1": "Ideal to calm and comfort babies, Sucro24 is a preservative and alcohol free maple syrup based solution that help reduce the impact of painful procedures.",
+            "description2": " "
+        },
+        "irrilag": {
+            "pill": "Irrilag",
+            "title": "First-Aid gel ",
+            "span1": "antispectic & antibacterial",
+            "description": "Made with colloïdal silver, Irrilag is designed to help treat minor skin infections, and to protect & help temporarily relieve itching and minor skin irritations."
+        },
+        "sopuro": {
+            "pill": "Sopuro",
+            "title1": "A revolutionary ",
+            "span1": "Antibacterial ",
+            "title2": "Hand sanitizer",
+            "description1": "A revolutionary antibacterial hand sanitizer perfect for any occasion. It features ",
+            "description2": "an Aloe vera enriched moisturizing gel in three different fragrances to choose from."
+        },
+        "global": {
+            "pill": "Global Scale",
+            "title": "The leaders in ",
+            "span1": "Specialised Waters",
+            "description1": "The Inopro group is an established leader in the commercialisation of innovative pharmaceutical products on a global scale.",
+            "description2": " "
+        }
+    },
+    "breadCrumb": {
+        "about": {
+            "title": "Inopro Group",
+            "first": "Home",
+            "second": "About Us"
+        },
+        "products": {
+            "title": "Products",
+            "first": "Home",
+            "second": "Products"
+        },
+        "contact": {
+            "title": "Contact Us",
+            "first": "Home",
+            "second": "Contact Us"
+        }
+    },
+    "aboutComponent": {
+        "pill": "About",
+        "title": "About Us",
+        "description": "The Inopro Group is a leading marketer of specialised waters in Quebec and Canada. Its wide distribution network, its high quality standards as well as its impeccable and personalised service are just some of the points on which the company has built its reputation.",
+        "marketer": "Leading marketer",
+        "services": "Personalised services",
+        "standards": "High quality standards",
+        "network": "Wide distribution network",
+        "button": "Discover"
+    },
+    "chooseUsComponent": {
+        "pill": "Choose Us",
+        "title": "Why choose us",
+        "description": "Choose Inopro Group for a better quality of life. We offer specialized sterile waters for pharmaceutical, medical, and cosmetic needs, available in pharmacies and recommended by health experts.",
+        "leader": {
+            "title": "Leader",
+            "description": "The Inopro group is established as a leader in the commercialisation of sterile specialised waters."
+        },
+        "distribution": {
+            "title": "Distribution",
+            "description": "Has a wide international distribution network."
+        },
+        "products": {
+            "title": "Quality products",
+            "description": "Sets itself apart by its unmatched quality standards in the market."
+        },
+        "service": {
+            "title": "Service",
+            "description": "Makes the difference through its personalised and impeccable customer service."
+        }
+    },
+    "callUsComponent": {
+        "pill": "Contact Us",
+        "title": "Call us to learn more about our selection of products",
+        "subtitle": "Contact Us Today"
+    },
+    "messageUsComponents": {
+        "pill": "Message Us",
+        "title": "Drop Us Message for Any Query",
+        "form": {
+            "name": "Name",
+            "email": "Email",
+            "phone": "Phone",
+            "subject": "Subject",
+            "message": "Your Message",
+            "button": "Send Message"
+        }
+    },
+    "contactUsPage": {
+        "subtitle": "Let Us Help You",
+        "title": "Please contact us if you have any questions",
+        "form": {
+            "name": "Name",
+            "email": "Your email",
+            "phone": "Your phone",
+            "subject": "Subject",
+            "message": "Your Message",
+            "button": "Send Message"
+        },
+        "contactBanner": {
+            "office": "Office Address",
+            "email": "Email Us",
+            "contact": "Contact Us Free"
+        },
+        "team": {
+            "pill": "Team",
+            "title": "Contact our team"
+        }
+    },
+    "productsPage": {
+        "allProducts": "All products",
+        "download": "Download File",
+        "brochure": "Product Brochure",
+        "contact": "Contact Us Free",
+        "description": "Contact us if you have any queries or want to learn more about our selection of products.",
+        "button": "Contact Us",
+        "irrigo": {
+            "title": "Irrigo",
+            "descriptionOne": "Is the first sterile sodium chloride solution especially designed to meet nurses needs. And it is now available to everyone!",
+            "descriptionTwo": "A wound irrigation requires on average 60 ml of solution. So why would you buy bulky to carry and store formats? Choose an all-in-one solution, making obsolete the use of cabarets, cannulae and syringes. With Irrigo, wound irrigation is more efficient and life is simpler!",
+            "features": {
+                "title": "Product features",
+                "feature1": "All-in-one first aid solution",
+                "feature1_br": "\n",
+                "feature2": "Sterile sodium chloride solution",
+                "feature2_br": "\n",
+                "feature3": "Guarantees a pressure of 0 to 15 psi",
+                "feature3_br": "\n",
+                "feature4": "Wounds, bites, scratches, scrapes, piercings, etc.",
+                "feature4_br": "\n"
+            },
+            "productDescription1": {
+                "title": "Ideal for first aid kits",
+                "description": "Dislodges bacteria with low and high mechanical pressure from 0 to15 psi.",
+                "feature1": "Safe to use, reduces risk of contamination",
+                "feature2": "60ml bottle",
+                "feature3": "Economical solution",
+                "feature4": "Single-use, individual",
+                "feature5": "Excellence in Healthcare every"
+            },
+            "productDescription2": {
+                "title": "The right solution for your needs",
+                "description": "Irrigo is a sterile solution for gently cleaning wounds, scratches, scrapes and bites. It removes foreign matter to promote healing and prevent infection.",
+                "mainFeature1": "Safe to use, reduces risk of contamination",
+                "feature1": "Meets Canadian best practices for wound cleansing",
+                "feature2": "Health Canada approved NPN: 80056020",
+                "mainFeature2": "Irrigo an environmentally friendly choice",
+                "feature3": "100% recyclable bottle"
+            }
+        }
+    }
+}

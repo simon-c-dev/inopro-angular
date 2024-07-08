@@ -12,15 +12,15 @@
                 </div>
             </div>
             <div class="col-lg-8 col-md-12">
-                <ul class="middle-header-content">
+                <ul *transloco="let t; read:'navigation'" class="middle-header-content">
                     <li>
                         <i class="flaticon-039-emergency-call"></i>
-                        Call Today
+                        {{t("call")}}
                         <span><a href="tel:514-792-5440">514-792-5440</a></span>
                     </li>
                     <li>
                         <i class="flaticon-040-back-in-time"></i>
-                        Open Hour
+                        {{t("hours")}}
                         <span>09:00 AM to 18:00 PM</span>
                     </li>
                 </ul>

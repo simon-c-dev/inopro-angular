@@ -3,7 +3,7 @@
     class="dental-tourism-choose-area ptb-100 bg-f5f5f5"
     [ngClass]="{'d-none': router.url === '/index-5'}"
 >
-    <div class="container">
+    <div *transloco="let t; read:'chooseUsComponent'" class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 col-md-12">
                 <div class="dental-tourism-choose-image">
@@ -17,30 +17,30 @@
                 <div class="dental-tourism-choose-content">
                     <span class="sub-title">
                         <i class="flaticon-198-hashtag-1"></i>
-                        Choose Us
+                        {{t("pill")}}
                     </span>
-                    <h2>Why choose us</h2>
+                    <h2>{{t("title")}}</h2>
                     <p>
-                        Choose Inopro Group for a better quality of life. We offer specialized sterile waters for pharmaceutical, medical, and cosmetic needs, available in pharmacies and recommended by health experts.</p>
+                        {{t("description")}}</p>
                     <div class="choose-inner-content">
                         <i class='bx bxs-badge-check'></i>
-                        <h4>Leader</h4>
-                        <p>The Inopro group is established as a leader in the commercialisation of sterile specialised waters.</p>
+                        <h4>{{t("leader.title")}}</h4>
+                        <p>{{t("leader.description")}}</p>
                     </div>
                     <div class="choose-inner-content">
                         <i class='bx bxs-badge-check'></i>
-                        <h4>Distribution</h4>
-                        <p>Has a wide international distribution network.</p>
+                        <h4>{{t("distribution.title")}}</h4>
+                        <p>{{t("distribution.description")}}</p>
                     </div>
                     <div class="choose-inner-content">
                         <i class='bx bxs-badge-check'></i>
-                        <h4>Quality products</h4>
-                        <p>Sets itself apart by its unmatched quality standards in the market.</p>
+                        <h4>{{t("products.title")}}</h4>
+                        <p>{{t("products.description")}}</p>
                     </div>
                     <div class="choose-inner-content">
                         <i class='bx bxs-badge-check'></i>
-                        <h4>Service</h4>
-                        <p>Makes the difference through its personalised and impeccable customer service.</p>
+                        <h4>{{t("service.title")}}</h4>
+                        <p>{{t("service.description")}}</p>
                     </div>
                 </div>
             </div>

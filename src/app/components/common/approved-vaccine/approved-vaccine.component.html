@@ -2,7 +2,7 @@
     class="covid-tracker-area pt-100 pb-75"
     style="background-image: url(assets/images/covid/tracker/map.jpg);"
 >
-    <div class="container">
+    <div *transloco="let t; read:'productGlance'" class="container">
         <div class="section-title with-covid-color">
             <h2>Our products at a glance</h2>
         </div>
@@ -14,10 +14,10 @@
                             <img src="assets/images/inopro/vaccines/irrilag_v3.png" alt="image">
                         </div>
                         <div class="tracker-content">
-                            <span class="sub">Colloïdal silver gel</span>
-                            <h3>Irrilag</h3>
+                            <span class="sub">{{t("irrilag.role")}}</span>
+                            <h3>{{t("irrilag.title")}}</h3>
                             <p class="d-flex justify-content-between align-items-center">
-                                <span class="one">Treat skin infection and protection</span>
+                                <span class="one">{{t("irrilag.description")}}</span>
                             </p>
                         </div>
                     </div>
@@ -28,10 +28,10 @@
                             <img src="assets/images/inopro/vaccines/irrigo.png" alt="image">
                         </div>
                         <div class="tracker-content">
-                            <span class="sub">Sterile sodium chloride solution</span>
-                            <h3>Irrigo</h3>
+                            <span class="sub">{{t("irrigo.role")}}</span>
+                            <h3>{{t("irrigo.title")}}</h3>
                             <p class="d-flex justify-content-between align-items-center">
-                                <span class="one">Wound cleaning and irrigation</span>
+                                <span class="one">{{t("irrigo.description")}}</span>
                             </p>
                         </div>
                     </div>
@@ -42,10 +42,10 @@
                             <img src="assets/images/inopro/vaccines/inopro_en.png" alt="image">
                         </div>
                         <div class="tracker-content">
-                            <span class="sub">U.S.P. Purified Sterile Water</span>
-                            <h3>Inopro</h3>
+                            <span class="sub">{{t("inopro.role")}}</span>
+                            <h3>{{t("inopro.title")}}</h3>
                             <p class="d-flex justify-content-between align-items-center">
-                                <span class="one">Laboratory analysis, medical institutions</span>
+                                <span class="one">{{t("inopro.description")}}</span>
                             </p>
                         </div>
                     </div>
@@ -56,10 +56,10 @@
                             <img src="assets/images/inopro/vaccines/irrilin_multi.png" alt="image">
                         </div>
                         <div class="tracker-content">
-                            <span class="sub">Aqueous Solution</span>
-                            <h3>Irrilin</h3>
+                            <span class="sub">{{t("irrilin.role")}}</span>
+                            <h3>{{t("irrilin.title")}}</h3>
                             <p class="d-flex justify-content-between align-items-center">
-                                <span class="one">Wound cleaning and irrigation</span>
+                                <span class="one">{{t("irrilin.description")}}</span>
                             </p>
                         </div>
                     </div>
@@ -70,10 +70,10 @@
                             <img src="assets/images/inopro/vaccines/sopuro.png" alt="image">
                         </div>
                         <div class="tracker-content">
-                            <span class="sub">Aloe Vera Gel</span>
-                            <h3>Sopuro</h3>
+                            <span class="sub">{{t("sopuro.role")}}</span>
+                            <h3>{{t("sopuro.title")}}</h3>
                             <p class="d-flex justify-content-between align-items-center">
-                                <span class="one">Antibacterial hand sanitizer</span>
+                                <span class="one">{{t("sopuro.description")}}</span>
                             </p>
                         </div>
                     </div>
@@ -84,10 +84,10 @@
                             <img src="assets/images/inopro/vaccines/sucro24.png" alt="image">
                         </div>
                         <div class="tracker-content">
-                            <span class="sub">Maple syrup based solution</span>
-                            <h3>Sucro24</h3>
+                            <span class="sub">{{t("sucro24.role")}}</span>
+                            <h3>{{t("sucro24.title")}}</h3>
                             <p class="d-flex justify-content-between align-items-center">
-                                <span class="one">Reduce impact of painful procedures</span>
+                                <span class="one">{{t("sucro24.description")}}</span>
                             </p>
                         </div>
                     </div>

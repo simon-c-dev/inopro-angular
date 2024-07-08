@@ -4,13 +4,13 @@
     [ngClass]="{'d-none': router.url === '/index-4' || router.url === '/about-us-3'}"
     style="background-image: url(assets/images/covid/tracker/map.jpg)"
 >
-    <div class="container">
+    <div *transloco="let t; read:'contactUsPage.team'" class="container">
         <div class="section-title-warp">
             <span class="sub-title">
                 <i class="flaticon-198-hashtag-1"></i>
-                Team
+                {{t("pill")}}
             </span>
-            <h2>Contact our team</h2>
+            <h2>{{t("title")}}</h2>
         </div>
         <div class="row justify-content-center">
             <div class="col-lg-4 col-md-6 col-sm-6">

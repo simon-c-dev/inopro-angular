@@ -5,20 +5,20 @@
                 class="main-slides-item"
                 style="background-image: url(assets/images/inopro/carousel/bannerAllProd.png);"
             >
-                <div class="container">
+                <div *transloco="let t; read:'homeCarousell.global'" class="container">
                     <div class="main-slides-content">
                         <span class="sub-title">
                             <i class="flaticon-198-hashtag-1"></i>
-                            Global Scale
+                            {{t("pill")}}
                         </span>
-                        <h1>The leaders in <span>Specialised Waters </span></h1>
-                        <p>The Inopro group is an established leader in the commercialisation of innovative pharmaceutical products on a global scale.</p>
-                        <div class="slides-btn">
+                        <h1>{{t("title")}} <span>{{t("span1")}} </span></h1>
+                        <p>{{t("description1")}}<br>{{t("description2")}}</p>
+                        <div *transloco="let b; read:'buttons'"  class="slides-btn">
                             <a routerLink="/contact" class="default-btn">
-                                Contact Us
+                                {{b("contact")}}
                             </a>
                             <a routerLink="/service-details-2" class="default-btn">
-                                View All Products
+                                {{b("viewAll")}}
                             </a>
                         </div>
                     </div>
@@ -30,20 +30,20 @@
                 class="main-slides-item"
                 style="background-image: url(assets/images/inopro/carousel/bannerSopuro.png);"
             >
-                <div class="container">
+                <div *transloco="let t; read:'homeCarousell.sopuro'" class="container">
                     <div class="main-slides-content">
                         <span class="sub-title">
                             <i class="flaticon-198-hashtag-1"></i>
-                            Sopuro
+                            {{t("pill")}}
                         </span>
-                        <h1>A revolutionary <span>Antibacterial </span> Hand sanitizer</h1>
-                        <p>A revolutionary antibacterial hand sanitizer perfect for any occasion. It features <br> an Aloe vera enriched moisturizing gel in three different fragrances to choose from.</p>
-                        <div class="slides-btn">
+                        <h1>{{t("title1")}} <span>{{t("span1")}} </span> {{t("title2")}}</h1>
+                        <p>{{t("description1")}} <br> {{t("description2")}} </p>
+                        <div *transloco="let b; read:'buttons'"  class="slides-btn">
                             <a routerLink="/contact" class="default-btn">
-                                Contact Us
+                                {{b("contact")}}
                             </a>
                             <a routerLink="/service-details-2" class="default-btn">
-                                View Product
+                                {{b("view")}}
                             </a>
                         </div>
                     </div>
@@ -53,21 +53,21 @@
         <ng-template carouselSlide>
             <div
                 class="main-slides-item"
-                style="background-image: url(assets/images/inopro/carousel/bannerIrrilin.png);">
-                <div class="container">
+                style="background-image: url(assets/images/inopro/carousel/bannerInopro.png);">
+                <div *transloco="let t; read:'homeCarousell.inopro'" class="container">
                     <div class="main-slides-content">
                         <span class="sub-title">
                             <i class="flaticon-198-hashtag-1"></i>
-                            Inopro U.S.P
+                            {{t("pill")}}
                         </span>
-                        <h1>Wound irrigation with <span> Purified Steril Water</span></h1>
-                        <p>Make your life easier and use Inopro U.S.P purified deionized sterile water to remove bacteria with mechanical pressure up to 15 psi. </p>
-                        <div class="slides-btn">
+                        <h1>{{t("title")}} <span> {{t("span1")}}</span></h1>
+                        <p>{{t("description")}}</p>
+                        <div *transloco="let b; read:'buttons'"  class="slides-btn">
                             <a routerLink="/contact" class="default-btn">
-                                Contact Us
+                                {{b("contact")}}
                             </a>
                             <a routerLink="/service-details-2" class="default-btn">
-                                View Product
+                                {{b("view")}}
                             </a>
                         </div>
                     </div>
@@ -79,20 +79,20 @@
                 class="main-slides-item"
                 style="background-image: url(assets/images/inopro/carousel/bannerIrrigo.png);"
             >
-                <div class="container">
+                <div *transloco="let t; read:'homeCarousell.irrigo'" class="container">
                     <div class="main-slides-content">
                         <span class="sub-title">
                             <i class="flaticon-198-hashtag-1"></i>
-                            Irrigo
+                            {{t("pill")}}
                         </span>
-                        <h1>The perfect<span> All-in-one First Aid </span> Solution</h1>
-                        <p>Irrigo is the first sterile sodium chloride solution especially designed to meet nurses needs. And it is now available to everyone!</p>
-                        <div class="slides-btn">
+                        <h1>{{t("title1")}}<span> {{t("span1")}} </span> {{t("title2")}}</h1>
+                        <p>{{t("description")}}</p>
+                        <div *transloco="let b; read:'buttons'"  class="slides-btn">
                             <a routerLink="/contact" class="default-btn">
-                                Contact Us
+                                {{b("contact")}}
                             </a>
                             <a routerLink="/service-details-2" class="default-btn">
-                                View Product
+                                {{b("view")}}
                             </a>
                         </div>
                     </div>
@@ -104,20 +104,20 @@
                 class="main-slides-item"
                 style="background-image: url(assets/images/inopro/carousel/bannerIrrilin.png);"
             >
-                <div class="container">
+                <div *transloco="let t; read:'homeCarousell.irrilin'" class="container">
                     <div class="main-slides-content">
                         <span class="sub-title">
                             <i class="flaticon-198-hashtag-1"></i>
-                            Irrilin
+                            {{t("pill")}}
                         </span>
-                        <h1>For a <span>Simple, Efficient</span> and <span> Sterile</span> solution</h1>
-                        <p>Irrilin is an Aqueous Solution designed for wound cleaning and irrigation. Ideal to clean the skin and tissues as well as piercings and tattoos.</p>
-                        <div class="slides-btn">
+                        <h1>{{t("title1")}} <span>{{t("span1")}}</span> {{t("title2")}}</h1>
+                        <p>{{t("description")}}</p>
+                        <div *transloco="let b; read:'buttons'"  class="slides-btn">
                             <a routerLink="/contact" class="default-btn">
-                                Contact Us
+                                {{b("contact")}}
                             </a>
                             <a routerLink="/service-details-2" class="default-btn">
-                                View Product
+                                {{b("view")}}
                             </a>
                         </div>
                     </div>
@@ -129,20 +129,20 @@
                 class="main-slides-item"
                 style="background-image: url(assets/images/inopro/carousel/bannerSucro24.png);"
             >
-                <div class="container">
+                <div *transloco="let t; read:'homeCarousell.sucro24'" class="container">
                     <div class="main-slides-content">
                         <span class="sub-title">
                             <i class="flaticon-198-hashtag-1"></i>
-                            Sucro24
+                            {{t("pill")}}
                         </span>
-                        <h1><span>Comfort babies</span> with the help of <span>Sucro24</span></h1>
-                        <p>Ideal to calm and comfort babies, Sucro24 is a preservative and alcohol free maple syrup based solution that help reduce the impact of painful procedures.</p>
-                        <div class="slides-btn">
+                        <h1><span>{{t("span1")}}</span> {{t("title")}} <span>{{t("span2")}}</span></h1>
+                        <p>{{t("description1")}}<br>{{t("description2")}}</p>
+                        <div *transloco="let b; read:'buttons'"  class="slides-btn">
                             <a routerLink="/contact" class="default-btn">
-                                Contact Us
+                                {{b("contact")}}
                             </a>
                             <a routerLink="/service-details-2" class="default-btn">
-                                View Product
+                                {{b("view")}}
                             </a>
                         </div>
                     </div>
@@ -154,27 +154,25 @@
                 class="main-slides-item"
                 style="background-image: url(assets/images/inopro/carousel/bannerIrrilag.png);"
             >
-                <div class="container">
+                <div *transloco="let t; read:'homeCarousell.irrilag'" class="container">
                     <div class="main-slides-content">
                         <span class="sub-title">
                             <i class="flaticon-198-hashtag-1"></i>
-                            Irrilag
+                            {{t("pill")}}
                         </span>
-                        <h1>First-Aid gel <span>antispectic & antibacterial</span></h1>
-                        <p>Made with colloïdal silver, Irrilag is designed to help treat minor skin infections, and to protect & help temporarily relieve itching and minor skin irritations.</p>
-                        <div class="slides-btn">
+                        <h1>{{t("title")}} <span>{{t("span1")}}</span></h1>
+                        <p>{{t("description")}}</p>
+                        <div *transloco="let b; read:'buttons'"  class="slides-btn">
                             <a routerLink="/contact" class="default-btn">
-                                Contact Us
+                                {{b("contact")}}
                             </a>
                             <a routerLink="/service-details-2" class="default-btn">
-                                View Product
+                                {{b("view")}}
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
         </ng-template>
-
-
     </owl-carousel-o>
 </div>

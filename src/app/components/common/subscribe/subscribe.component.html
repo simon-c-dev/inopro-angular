@@ -1,14 +1,14 @@
 <div class="newsletter-area">
     <div class="container">
         <div class="newsletter-inner-box">
-            <div class="row align-items-center">
+            <div *transloco="let t; read:'callToAction'" class="row align-items-center">
                 <div class="col-lg-10 col-md-12">
-                    <div class="newsletter-content">
-                        <h2>Learn more about our wide selection of specialised waters and more</h2>
+                    <div  class="newsletter-content">
+                        <h2>{{t("text")}}</h2>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-12">
-                    <a routerLink="/service-details-2" class="subscribe-btn">Discover</a>
+                    <a routerLink="/service-details-2" class="subscribe-btn">{{t("button")}}</a>
                 </div>
             </div>
         </div>

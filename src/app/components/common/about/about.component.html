@@ -4,28 +4,28 @@
     class="about-area ptb-100"
     [ngClass]="{'d-none': router.url === '/index-2' || router.url === '/index-3' || router.url === '/index-4' || router.url === '/index-5' || router.url === '/index-6' || router.url === '/index-7' || router.url === '/index-8' || router.url === '/about-us-2' || router.url === '/about-us-3'}"
 >
-    <div class="container">
+    <div *transloco="let t; read:'aboutComponent'" class="container">
         <div class="row align-items-center">
             <div class="col-lg-7 col-md-12">
                 <div class="about-content">
                     <span class="sub-title">
                         <i class="flaticon-198-hashtag-1"></i>
-                        About
+                        {{t("pill")}}
                     </span>
                     <h3>
-                        <span style="color: black">About us</span>
+                        <span style="color: black">{{t("title")}}</span>
                     </h3>
-                    <p>The Inopro Group is a leading marketer of specialised waters in Quebec and Canada. Its wide distribution network, its high quality standards as well as its impeccable and personalised service are just some of the points on which the company has built its reputation.</p>
+                    <p>{{t("description")}}</p>
                     <div class="row">
                         <div class="col-lg-4 col-6">
                             <ul class="about-list">
                                 <li>
                                     <i class="flaticon-163-draw-check-mark"></i>
-                                    Leading marketer
+                                    {{t("marketer")}}
                                 </li>
                                 <li>
                                     <i class="flaticon-163-draw-check-mark"></i>
-                                    High quality standards
+                                    {{t("standards")}}
                                 </li>
                             </ul>
                         </div>
@@ -33,11 +33,11 @@
                             <ul class="about-list">
                                 <li>
                                     <i class="flaticon-163-draw-check-mark"></i>
-                                    Personalised services
+                                    {{t("services")}}
                                 </li>
                                 <li>
                                     <i class="flaticon-163-draw-check-mark"></i>
-                                    Wide distribution network
+                                    {{t("network")}}
                                 </li>
                             </ul>
                         </div>
@@ -46,7 +46,7 @@
                         <div class="row">
                             <div class="col-6">
                                 <div class="about-info" style="padding-left: 0">
-                                        <a routerLink="/service-details-2" class="default-btn">Discover</a>
+                                        <a routerLink="/service-details-2" class="default-btn">{{t("button")}}</a>
                                 </div>
                             </div>
                         </div>

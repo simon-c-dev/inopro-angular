@@ -3,12 +3,12 @@
     class="page-banner-area ptb-100 four"
     style="background-image: url(assets/images/inopro/breadcrumbBanner.png);"
 >
-    <div class="container">
+    <div *transloco="let t; read:'breadCrumb.about'" class="container">
         <div class="page-banner-content">
-            <h2 style="color: var(--main-color)">Le groupe Inopro</h2>
+            <h2 style="color: var(--main-color)">{{t("title")}}</h2>
             <ul class="pages-list">
-                <li><a href="index.html">Home</a></li>
-                <li>About Us</li>
+                <li><a routerLink="/home">{{t("first")}}</a></li>
+                <li>{{t("second")}}</li>
             </ul>
         </div>
     </div>

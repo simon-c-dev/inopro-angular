@@ -1,0 +1,271 @@
+{
+    "navigation": {
+        "home": "Accueil",
+        "about": "À propos",
+        "products": "Produits",
+        "contact": "Contact",
+        "call": "Appelez Aujourd'hui",
+        "hours": "Heures d'Ouverture"
+    },
+    "language": {
+        "fr": "Français",
+        "en": "Anglais"
+    },
+    "buttons": {
+        "discover": "Découvrez Nos Produits",
+        "contact": "Contactez-Nous",
+        "view": "Détails",
+        "viewAll": "Tout les produits",
+        "about": "À propos de Nous"
+    },
+    "partners": {
+        "pill": "Nos partenaires"
+    },
+    "productGlance": {
+        "inopro": {
+            "role": "Eau Stérile Purifiée U.S.P",
+            "title": "Inopro",
+            "description": "Analyse de laboratoire, institutions médicales"
+        },
+        "irrilag": {
+            "role": "Gel de Silver Colloïdal",
+            "title": "Irrilag",
+            "description": "Traitement des infections cutanées & protection"
+        },
+        "irrigo": {
+            "role": "Solution de Chlorure de Sodium Stérile",
+            "title": "Irrigo",
+            "description": "Nettoyage & irrigation des plaies"
+        },
+        "irrilin": {
+            "role": "Solution Aqueuse",
+            "title": "Irrilin",
+            "description": "Nettoyage & irrigation des plaies"
+        },
+        "sopuro": {
+            "role": "Gel d'Aloe Vera",
+            "title": "Sopuro",
+            "description": "Désinfectant pour les mains antibactérien"
+        },
+        "sucro24": {
+            "role": "Solution à base de Sirop d'Érable",
+            "title": "Sucro24",
+            "description": "Réduire l'impact des procédures douloureuses"
+        }
+    },
+    "callToAction": {
+        "text": "Apprenez en plus sur notre gamme d'eaux spécialisées et plus encore",
+        "button": "Découvrir"
+    },
+    "footer": {
+        "description": "Présent dans les milieux pharmaceutiques, hospitaliers et cosmétiques, le groupe Inopro est un leader dans le domaine des eaux spécialisées stériles.",
+        "offre": "Offre",
+        "information": "Information",
+        "home": "Accueil",
+        "newsletter": "Bulletin",
+        "subscribe": "Abonnez-vous à notre Bulletin pour recevoir des mises à jour par email",
+        "email": "Votre adresse email",
+        "rights": "Tous droits réservés @Inopro 2024"
+    },
+    "features": {
+        "pill": "Ce qui nous distingue",
+        "title": "Le Groupe Inopro",
+        "leader": {
+            "title": "Leader",
+            "description": "Inopro se positionne comme un leader dans la commercialisation des eaux stériles spécialisées, largement reconnu pour son engagement envers l'excellence et l'innovation."
+        },
+        "distribution": {
+            "title": "Distribution",
+            "description": "Un leader mondial dans la commercialisation de produits pharmaceutiques innovants, établissant de nouvelles normes dans l'industrie."
+        },
+        "quality": {
+            "title": "Produits de qualité",
+            "description": "Grâce à un engagement inébranlable envers des normes de qualité inégalées, Inopro consolide son leadership sur le marché, gagnant confiance et respect à l'échelle mondiale."
+        },
+        "service": {
+            "title": "Service",
+            "description": "Inopro se distingue par son engagement envers un service client personnalisé et irréprochable, cimentant ainsi sa réputation de leader incontesté dans l'industrie."
+        }
+    },
+    "homeCarousell": {
+        "inopro": {
+            "pill": "Inopro U.S.P",
+            "title": "Irrigation des plaies avec ",
+            "span1": "eau stérile purifiée",
+            "description": "Facilitez votre vie et utilisez l'eau déionisée stérile purifiée Inopro U.S.P pour éliminer les bactéries avec une pression mécanique allant jusqu'à 15 psi."
+        },
+        "irrigo": {
+            "pill": "Irrigo",
+            "title1": "La solution ",
+            "span1": "tout-en-un de premiers soins",
+            "title2": " ",
+            "description": "Irrigo est la première solution stérile de chlorure de sodium spécialement conçue pour répondre aux besoins des infirmières. Et elle est désormais disponible pour tout le monde!"
+        },
+        "irrilin": {
+            "pill": "Irrilin",
+            "title1": "Pour une solution ",
+            "span1": "simple, efficace et stérile",
+            "title2": " ",
+            "description": "Irrilin est une solution aqueuse conçue pour le nettoyage et l'irrigation des plaies. Idéal pour nettoyer la peau et les tissus ainsi que les piercings et les tatouages."
+        },
+        "sucro24": {
+            "pill": "Sucro24",
+            "title": "les bébés avec",
+            "span1": "Réconfortez",
+            "span2": "Sucro24",
+            "description1": "Idéal pour calmer et conforter les bébés, Sucro24 est une solution à base de sirop ",
+            "description2": "d'érable sans conservateur ni alcool qui aide à réduire l'impact des procédures douloureuses."
+        },
+        "irrilag": {
+            "pill": "Irrilag",
+            "title": "Gel premier soins ",
+            "span1": "antiseptique et antibactérien",
+            "description": "Irrilag, fabriqué avec de l'argent colloïdal, aide à traiter les infections cutanées mineures et à soulager temporairement les démangeaisons et irritations cutanées."
+        },
+        "sopuro": {
+            "pill": "Sopuro",
+            "title1": "Un désinfectant ",
+            "span1": "antibactérien révolutionnaire",
+            "title2": " ",
+            "description1": "Un désinfectant antibactérien révolutionnaire pour les mains, parfait pour toutes ",
+            "description2": "les occasions. Enrichi en Aloe vera, ce gel hydratant est disponible en trois parfums différents. "
+        },
+        "global": {
+            "pill": "Échelle mondiale",
+            "title": "Les leaders ",
+            "span1": "d'eaux spécialisées",
+            "description1": "Le groupe Inopro est un leader établi dans la commercialisation de ",
+            "description2": "produits pharmaceutiques innovants à l'échelle mondiale."
+        }
+    },
+    "breadCrumb": {
+        "about": {
+            "title": "Groupe Inopro",
+            "first": "Accueil",
+            "second": "À propos de Nous"
+        },
+        "products": {
+            "title": "Produits",
+            "first": "Accueil",
+            "second": "Produits"
+        },
+        "contact": {
+            "title": "Contactez-Nous",
+            "first": "Accueil",
+            "second": "Contactez-Nous"
+        }
+    },
+    "aboutComponent": {
+        "pill": "À propos",
+        "title": "À propos de Nous",
+        "description": "Le Groupe Inopro est un leader de la commercialisation des eaux spécialisées au Québec et au Canada. Son large réseau de distribution, ses normes de qualité élevées ainsi que son service impeccable et personnalisé ne sont que quelques-uns des points sur lesquels l'entreprise a bâti sa réputation.",
+        "marketer": "Leader de la commercialisation",
+        "services": "Services personnalisés",
+        "standards": "Normes de qualité élevées",
+        "network": "Large réseau de distribution",
+        "button": "Découvrir"
+    },
+    "chooseUsComponent": {
+        "pill": "Choisissez-Nous",
+        "title": "Pourquoi nous choisir",
+        "description": "Choisissez le Groupe Inopro pour une meilleure qualité de vie. Nous offrons des eaux spécialisées stériles pour les besoins pharmaceutiques, médicaux et cosmétiques, disponibles en pharmacie et recommandées par des experts de la santé.",
+        "leader": {
+            "title": "Leader",
+            "description": "Le groupe Inopro est établi en tant que leader dans la commercialisation des eaux spécialisées stériles."
+        },
+        "distribution": {
+            "title": "Distribution",
+            "description": "Possède un large réseau de distribution international."
+        },
+        "products": {
+            "title": "Produits de qualité",
+            "description": "Se distingue par des normes de qualité inégalées sur le marché."
+        },
+        "service": {
+            "title": "Service",
+            "description": "Fait la différence grâce à son service client personnalisé et impeccable."
+        }
+    },
+    "callUsComponent": {
+        "pill": "Contactez-Nous",
+        "title": "Appelez-nous pour en savoir plus sur notre sélection de produits",
+        "subtitle": "Contactez-Nous Aujourd'hui"
+    },
+    "messageUsComponents": {
+        "pill": "Envoyez-Nous un Message",
+        "title": "Envoyez-Nous un Message pour Toute Question",
+        "form": {
+            "name": "Nom",
+            "email": "Email",
+            "phone": "Téléphone",
+            "subject": "Sujet",
+            "message": "Votre Message",
+            "button": "Envoyer"
+        }
+    },
+    "contactUsPage": {
+        "subtitle": "Laissez-Nous Vous Aider",
+        "title": "Veuillez nous contacter si vous avez des questions ou des préoccupations",
+        "form": {
+            "name": "Nom",
+            "email": "Email",
+            "phone": "Téléphone",
+            "subject": "Sujet",
+            "message": "Votre Message",
+            "button": "Envoyer"
+        },
+        "contactBanner": {
+            "office": "Adresse du Bureau",
+            "email": "Envoyez-nous un Email",
+            "contact": "Contactez-nous Gratuitement"
+        },
+        "team": {
+            "pill": "Équipe",
+            "title": "Contactez notre équipe"
+        }
+    },
+    "productsPage": {
+        "allProducts": "Tous les produits",
+        "download": "Télécharger le fichier",
+        "brochure": "Brochure du produit",
+        "contact": "Contactez-nous Gratuitement",
+        "description": "Contactez-nous si vous avez des questions ou si vous souhaitez en savoir plus sur notre sélection de produits.",
+        "button": "Contactez-nous",
+        "irrigo": {
+            "title": "Irrigo",
+            "descriptionOne": "Est la première solution stérile de chlorure de sodium spécialement conçue pour répondre aux besoins des infirmières. Et elle est maintenant accessible à tous !",
+            "descriptionTwo": "Une irrigation de plaie nécessite en moyenne 60 ml de solution. Alors pourquoi acheter des formats encombrants à transporter et à stocker ? Choisissez une solution tout-en-un, rendant obsolète l'utilisation de cabarets, canules et seringues. Avec Irrigo, l'irrigation des plaies est plus efficace et la vie est plus simple !",
+            "features": {
+                "title": "Caractéristiques du produit",
+                "feature1": "Solution tout-en-un de premiers soins",
+                "feature1_br": "\n",
+                "feature2": "Solution stérile de chlorure de sodium",
+                "feature2_br": "\n",
+                "feature3": "Garantit une pression de 0 à 15 psi",
+                "feature3_br": "\n",
+                "feature4": "Plaies, morsures, éraflures, égratignures, piercings, etc.",
+                "feature4_br": "\n"
+            },
+            "productDescription1": {
+                "title": "Idéal pour les trousses de premiers secours",
+                "description": "Déloge les bactéries avec une pression mécanique faible et élevée de 0 à 15 psi.",
+                "feature1": "Sûr à utiliser, réduit le risque de contamination",
+                "feature2": "Bouteille de 60 ml",
+                "feature3": "Solution économique",
+                "feature4": "Usage unique, individuel",
+                "feature5": "Excellence en soins de santé chaque fois"
+            },
+            "productDescription2": {
+                "title": "La solution adaptée à vos besoins",
+                "description": "Irrigo est une solution stérile pour nettoyer en douceur les plaies, égratignures, éraflures et morsures. Elle élimine les corps étrangers pour favoriser la guérison et prévenir l'infection.",
+                "mainFeature1": "Sûr à utiliser, réduit le risque de contamination",
+                "feature1": "Respecte les meilleures pratiques canadiennes pour le nettoyage des plaies",
+                "feature2": "Approuvé par Santé Canada NPN : 80056020",
+                "mainFeature2": "Irrigo un choix écologique",
+                "feature3": "Bouteille 100 % recyclable"
+            }
+        }
+    }
+}
+
+

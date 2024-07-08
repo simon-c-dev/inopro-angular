@@ -3,14 +3,14 @@
     class="core-features-area pt-100 pb-75 bg-eef9ff"
     [ngClass]="{'d-none': router.url === '/index-2' || router.url === '/index-4' || router.url === '/index-5' || router.url === '/index-6' || router.url === '/index-7' || router.url === '/appointment' || router.url === '/about-us' || router.url === '/about-us-2' || router.url === '/about-us-3'}"
 >
-    <div class="container">
+    <div *transloco="let t; read:'features'" class="container">
         <div class="section-title-warp">
             <span class="sub-title">
                 <i class="flaticon-198-hashtag-1"></i>
-                What sets us apart
+                {{t("pill")}}
             </span>
-            <h2>The Inopro Group</h2>
-            <a routerLink="/about-us" class="default-btn">About Us</a>
+            <h2>{{t("title")}}</h2>
+            <a *transloco="let b; read:'buttons'" routerLink="/about-us" class="default-btn">{{b("about")}}</a>
         </div>
         <div class="row justify-content-center">
             <div class="col-xl-3 col-lg-6 col-sm-6">
@@ -19,9 +19,9 @@
                         <i class="flaticon-072-badge"></i>
                     </div>
                     <h3>
-                            Leader
+                        {{t("leader.title")}}
                     </h3>
-                    <p>The Inopro group is a leader in commercializing sterile specialized waters, renowned for its commitment to excellence and advancements.</p>
+                    <p>{{t("leader.description")}}</p>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-6 col-sm-6">
@@ -30,9 +30,9 @@
                         <i class="flaticon-050-share"></i>
                     </div>
                     <h3>
-                            Distribution
+                        {{t("distribution.title")}}
                     </h3>
-                    <p>The Inopro group is a global leader in commercializing innovative pharmaceutical products, setting new industry standards worldwide.<br><br></p>
+                    <p>{{t("distribution.description")}}<br><br></p>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-6 col-sm-6">
@@ -41,9 +41,9 @@
                         <i class="flaticon-160-diamond-1"></i>
                     </div>
                     <h3>
-                            Quality products
+                        {{t("quality.title")}}
                     </h3>
-                    <p>With unwavering dedication to unparalleled quality standards, Inopro asserts its leadership in the market, earning global trust and respect.</p>
+                    <p>{{t("quality.description")}}</p>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-6 col-sm-6">
@@ -52,9 +52,9 @@
                         <i class="flaticon-037-plus"></i>
                     </div>
                     <h3>
-                            Service
+                        {{t("service.title")}}
                     </h3>
-                    <p>Inopro makes the difference with personalized and impeccable customer service cementing its reputation as an industry leader.<br><br></p>
+                    <p>{{t("service.description")}}<br><br></p>
                 </div>
             </div>
         </div>

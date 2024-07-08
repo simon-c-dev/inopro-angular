@@ -3,7 +3,7 @@
     class="appointment-overview-area pb-100"
     [ngClass]="{'d-none': router.url === '/index-2' || router.url === '/index-3' || router.url === '/index-4' || router.url === '/index-5' || router.url === '/index-8' || router.url === '/appointment' || router.url === '/about-us-3'}"
 >
-    <div class="container">
+    <div *transloco="let t; read:'messageUsComponents'" class="container">
         <div class="row">
             <div class="col-lg-8 col-md-12">
                 <div class="appointment-overview-box">
@@ -12,40 +12,45 @@
                             <div class="section-title">
                         <span class="sub-title" style="color: white">
                         <i class="flaticon-198-hashtag-1"></i>
-                        Message Us
+                            {{ t("pill") }}
                         </span>
-                                <h2>Drop Us Message for Any Query</h2>
+                                <h2>{{ t("title") }}</h2>
                             </div>
                             <div class="contact-form">
                                 <form>
                                     <div class="row">
                                         <div class="col-lg-6 col-sm-6">
                                             <div class="form-group">
-                                                <input type="text" name="name" class="form-control" required placeholder="Name">
+                                                <label style="padding-left:18px">{{ t("form.name") }}</label>
+                                                <input type="text" name="name" class="form-control" required>
                                             </div>
                                         </div>
                                         <div class="col-lg-6 col-sm-6">
                                             <div class="form-group">
-                                                <input type="email" name="email" class="form-control" placeholder="Email">
+                                                <label style="padding-left:18px">{{ t("form.email") }}</label>
+                                                <input type="email" name="email" class="form-control">
                                             </div>
                                         </div>
                                         <div class="col-lg-6 col-sm-6">
                                             <div class="form-group">
-                                                <input type="text" name="phone_number" required class="form-control" placeholder="Phone">
+                                                <label style="padding-left:18px">{{ t("form.phone") }}</label>
+                                                <input type="text" name="phone_number" required class="form-control">
                                             </div>
                                         </div>
                                         <div class="col-lg-6 col-sm-6">
                                             <div class="form-group">
-                                                <input type="text" class="form-control" placeholder="Subject">
+                                                <label style="padding-left:18px">{{ t("form.subject") }}</label>
+                                                <input type="text" class="form-control">
                                             </div>
                                         </div>
                                         <div class="col-lg-12 col-sm-12">
                                             <div class="form-group">
-                                                <textarea name="message" class="form-control" cols="30" rows="5" required placeholder="Your Message"></textarea>
+                                                <label style="padding-left:18px">{{ t("form.message") }}</label>
+                                                <textarea name="message" class="form-control" cols="30" rows="5" required></textarea>
                                             </div>
                                         </div>
-                                        <div class="col-lg-12 col-sm-12">
-                                            <button type="submit" class="default-btn">Send Message</button>
+                                        <div style="padding-left:25px" class="col-lg-12 col-sm-12">
+                                            <button  type="submit" class="default-btn"><label>{{ t("form.button") }}</label></button>
                                         </div>
                                     </div>
                                 </form>

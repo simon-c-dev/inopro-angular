@@ -45,6 +45,7 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 import { Button } from 'primeng/button';
 import { TagModule } from 'primeng/tag';
 import { GalleriaModule } from 'primeng/galleria';
+import { TranslocoRootModule } from './transloco-root.module';
 
 @NgModule({
     declarations: [
@@ -92,6 +93,7 @@ import { GalleriaModule } from 'primeng/galleria';
         GeolocationComponent,
         Button,
         TagModule,
+        TranslocoRootModule,
     ],
     providers: [
         provideAnimationsAsync()
